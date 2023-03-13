@@ -1,0 +1,57 @@
+#!/bin/bash
+#PBS -N pytorch_benchmark
+#PBS -l select=1:ncpus=56:mem=372gb:ngpus=1:gpu_model=a100:phase=27,walltime=02:00:00
+#PBS -q wficai
+#PBS -j oe
+
+project_dir='/zfs/citi/benchmarks/palmetto_benchmark/pytorch'
+current_date=`date` 
+
+# set appropriate data path based on storage
+if [[ $STORAGE = "zfs" ]]; then
+     data_dir='/zfs/citi/datasets/imagenet/ILSVRC/Data/CLS-LOC'
+elif [[ $STORAGE = "vast" ]]; then
+     data_dir='/project/rcde/datasets/imagenet/ILSVRC/Data/CLS-LOC'
+else
+     echo \"$STORAGE\"" is not a valid storage option."
+     exit 1
+fi
+
+if [[ $RUNTIME = "nvidia_ngc" ]]; then
+     echo "---------------------------------"
+     echo "Using NVIDIA_NGC runtime."
+     echo ${current_date}
+     echo "---------------------------------"
+
+     img_file=${project_dir}/ngc_pytorch.simg
+
+     apptainer exec --nv \
+          --bind ${project_dir}/pytorch-image-models:/home \
+          --bind ${data_dir}:/data \
+          --bind ${project_dir}/python_cmd.sh:/run/python_cmd.sh \
+          --pwd /home \
+          --env DATA_DIR=/data \
+          ${img_file} \
+          /bin/bash /run/python_cmd.sh
+
+elif [[ $RUNTIME = "conda" ]]; then
+     echo "---------------------------------"
+     echo "Using CONDA runtime."
+     echo ${current_date}
+     echo "---------------------------------"
+
+     wd=`pwd`
+     cd ${project_dir}/pytorch-image-models
+     module load anaconda3/2022.05-gcc/9.5.0
+     source activate pytorch_bench
+     DATA_DIR=${data_dir} bash ../python_cmd.sh
+     conda deactivate
+     cd ${wd}
+
+else
+     echo \"$RUNTIME\"" is not a valid runtime."
+     exit 1
+fi
+
+
+

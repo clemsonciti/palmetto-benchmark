@@ -1,0 +1,12 @@
+name: pytorch_bench
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.16=h7a1cb2a_2
+  - pip
+  - pytorch=1.12.1=py3.8_cuda11.6_cudnn8.3.2_0
+  - torchvision=0.13.1=py38_cu116
+  - pip:
+    - pyyaml==6.0
