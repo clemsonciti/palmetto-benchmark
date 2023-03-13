@@ -1,7 +1,15 @@
+## Generic:
 *.sif
 *.simg
 *.vscode
 
+## Gromacs:
+
+## Lammps:
+
+## Pytorch:
+
+# the following is copied from /pytorch/pytorch-image-models
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
