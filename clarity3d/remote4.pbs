@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#PBS -N clarityBenchmark
+#PBS -l select=4:ncpus=4:mem=32gb:interconnect=fdr
+#PBS -l walltime=1:00:00
+#PBS -l place=scatter
+#PBS -j oe
+#PBS -o ./logs
+
+set -e
+
+module load cadence/Sigrity22
+
+TEST_FILE=$PBS_O_WORKDIR/usb_test.3dem
+BENCHMARK_SCRATCH_DIR=/scratch/$USER/cadence-clarity-benchmark/$PBS_JOBID
+START_TIME=$(date +"%Y-%m-%dT%H:%M:%S%z")
+
+mkdir -p "$BENCHMARK_SCRATCH_DIR"
+cp "$TEST_FILE" "$BENCHMARK_SCRATCH_DIR/input.3dem"
+cd "$BENCHMARK_SCRATCH_DIR"
+
+COMPUTER_RESOURCES=""
+for host in $(uniq $PBS_NODEFILE); do
+    COMPUTER_RESOURCES="$COMPUTER_RESOURCES -ssh -cn $host -cpus $NCPUS"
+done
+
+cat << EOF > commands.tcl
+#tcl Clarity 3D Workbench version: 6
+sigrity::configure version -version {6}
+sigrity::open file -file {input.3dem}
+sigrity::update DynamicClarity3dResource -smt 0 $COMPUTER_RESOURCES
+sigrity::begin simulation -fileName {input.3dem}
+sigrity::end simulation -fileName {input.3dem}
+EOF
+
+rm -f $TMPDIR/clarity.log
+clarity3dworkbench --NoUI tcl commands.tcl | tee $TMPDIR/clarity.log
+SIM_TIME=$(grep "Time elapsed for final simulation" $TMPDIR/clarity.log | sed -r 's/^.*([0-9]+:[0-9]+:[0-9]+).*$/\1/g')
+MESH_TIME=$(grep "Time elapsed for adaptive mesh" $TMPDIR/clarity.log | sed -r 's/^.*([0-9]+:[0-9]+:[0-9]+).*$/\1/g')
+echo "remote4,$START_TIME,$SIM_TIME,$MESH_TIME" >> $PBS_O_WORKDIR/results_log.csv
+

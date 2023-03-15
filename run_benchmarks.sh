@@ -1,5 +1,13 @@
 #!/bin/bash
 
+set -e
+
+cd clarity3d
+qsub remote8.pbs  
+qsub remote4.pbs
+qsub localonly.pbs
+cd ..
+
 cd gromacs/polymer_physics_pspss5
 qsub submit_broadwell_1node.sh
 qsub submit_broadwell_2nodes.sh
