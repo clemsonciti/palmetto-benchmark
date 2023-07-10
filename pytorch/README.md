@@ -18,7 +18,7 @@ apptainer build /zfs/citi/benchmarks/palmetto_benchmark/pytorch/ngc_pytorch.simg
 Run the following from the project's root directory. This creates a new conda environment called `pytorch_bench` and installs the necessary dependencies. 
 ```{bash}
 module load anaconda3/2022.05-gcc/9.5.0
-conda create --file environment.yml
+conda env create --file environment.yml
 ```
 
 ## Run the benchmark
