@@ -1,17 +1,14 @@
 #!/bin/bash
 #PBS -N pytorch_benchmark
-#PBS -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=p100:phase=16,walltime=02:00:00
-#PBS -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=p100:phase=17,walltime=02:00:00
-#PBS -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=v100:phase=18b,walltime=02:00:00
-#PBS -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=v100:phase=18c,walltime=02:00:00
-#PBS -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=v100:phase=19a,walltime=02:00:00
-#PBS -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=v100:phase=19a,walltime=02:00:00
-#PBS -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=a100:phase=27,walltime=02:00:00
-#PBS -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=a100:phase=28,walltime=02:00:00
-#PBS -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=a100:phase=29,walltime=02:00:00
-
-#PBS -q wficai
-#PBS -j oe
+# -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=p100:phase=16,walltime=02:00:00
+# -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=p100:phase=17,walltime=02:00:00
+# -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=v100:phase=18b,walltime=02:00:00
+# -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=v100:phase=18c,walltime=02:00:00
+# -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=v100:phase=19a,walltime=02:00:00
+# -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=v100:phase=19a,walltime=02:00:00
+# -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=a100:phase=27,walltime=02:00:00
+# -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=a100:phase=28,walltime=02:00:00
+# -l select=1:ncpus=20:mem=100gb:ngpus=1:gpu_model=a100:phase=29,walltime=02:00:00
 
 project_dir='/zfs/citi/benchmarks/palmetto_benchmark/pytorch'
 current_date=`date` 
