@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -N pytorch_benchmark
-#PBS -l select=1:ncpus=56:mem=372gb:ngpus=1:gpu_model=a100:phase=27,walltime=02:00:00
+#PBS -l select=1:ncpus=24:mem=128gb:ngpus=1:gpu_model=a100:phase=27,walltime=02:00:00
 #PBS -q wficai
 #PBS -j oe
 
