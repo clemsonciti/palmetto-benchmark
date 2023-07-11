@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#SBATCH --job-name mlperf_hpc:deepcam
+#SBATCH -N 20
+#SBATCH -n 40
+#SBATCH -w node[0400-0401,0403-0419,0421]
+#SBATCH --ntasks-per-node 2
+#SBATCH --cpus-per-task=32
+#SBATCH -t 48:00:00
+#SBATCH --exclusive
+#SBATCH --mem=0
+#SBATCH --gres=gpu:2
+
+srun apptainer exec \
+    --nv \
+    --env-file config/myenvs \
+    -B /project/rcde:/project/rcde \
+    mlperf_hpc-deepcam_latest.sif \
+    bash /project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/run_scripts/run_training.sh

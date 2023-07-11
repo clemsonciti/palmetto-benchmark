@@ -1,0 +1,1279 @@
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+:::MLLOG {"namespace": "", "time_ms": 1688660956148, "event_type": "POINT_IN_TIME", "key": "submission_benchmark", "value": "deepcam", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/mlperf_log_utils.py", "lineno": 55}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956179, "event_type": "POINT_IN_TIME", "key": "submission_org", "value": "Umbrella Corp.", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/mlperf_log_utils.py", "lineno": 58}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956179, "event_type": "POINT_IN_TIME", "key": "submission_division", "value": "closed", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/mlperf_log_utils.py", "lineno": 61}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956179, "event_type": "POINT_IN_TIME", "key": "submission_status", "value": "onprem", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/mlperf_log_utils.py", "lineno": 64}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956179, "event_type": "POINT_IN_TIME", "key": "submission_platform", "value": "4xSUBMISSION_PLATFORM_PLACEHOLDER", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/mlperf_log_utils.py", "lineno": 67}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956179, "event_type": "INTERVAL_START", "key": "init_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 67}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956179, "event_type": "POINT_IN_TIME", "key": "cache_clear", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 68}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956179, "event_type": "POINT_IN_TIME", "key": "seed", "value": 1688660946, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 72}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956183, "event_type": "POINT_IN_TIME", "key": "number_of_ranks", "value": 4, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 93}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956183, "event_type": "POINT_IN_TIME", "key": "number_of_nodes", "value": 2, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 94}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956183, "event_type": "POINT_IN_TIME", "key": "accelerators_per_node", "value": 2, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 95}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956183, "event_type": "POINT_IN_TIME", "key": "global_batch_size", "value": 8, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 98}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956183, "event_type": "POINT_IN_TIME", "key": "batchnorm_group_size", "value": 1, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 99}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956183, "event_type": "POINT_IN_TIME", "key": "gradient_accumulation_frequency", "value": 1, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 100}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956183, "event_type": "POINT_IN_TIME", "key": "checkpoint", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 101}}
+Constructing DeepLabv3+ model...
+Number of output channels: 3
+Output stride: 16
+Number of Input Channels: 16
+:::MLLOG {"namespace": "", "time_ms": 1688660956877, "event_type": "POINT_IN_TIME", "key": "opt_name", "value": "LAMB", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 134}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956891, "event_type": "POINT_IN_TIME", "key": "opt_lr", "value": 0.0055, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956891, "event_type": "POINT_IN_TIME", "key": "opt_bias_correction", "value": true, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956891, "event_type": "POINT_IN_TIME", "key": "opt_betas", "value": [0.9, 0.999], "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956891, "event_type": "POINT_IN_TIME", "key": "opt_eps", "value": 1e-06, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956891, "event_type": "POINT_IN_TIME", "key": "opt_weight_decay", "value": 0.01, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956891, "event_type": "POINT_IN_TIME", "key": "opt_grad_averaging", "value": true, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956891, "event_type": "POINT_IN_TIME", "key": "opt_max_grad_norm", "value": 1.0, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956892, "event_type": "POINT_IN_TIME", "key": "scheduler_type", "value": "multistep", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 97}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956892, "event_type": "POINT_IN_TIME", "key": "scheduler_milestones", "value": [800], "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 97}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956892, "event_type": "POINT_IN_TIME", "key": "scheduler_decay_rate", "value": 0.1, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 97}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956892, "event_type": "POINT_IN_TIME", "key": "scheduler_lr_warmup_steps", "value": 400, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 97}}
+:::MLLOG {"namespace": "", "time_ms": 1688660956892, "event_type": "POINT_IN_TIME", "key": "scheduler_lr_warmup_factor", "value": 1.0, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/utils/optimizer_helpers.py", "lineno": 97}}
+DeepLabv3_plus(
+  (xception_features): Xception(
+    (relu): ReLU(inplace=True)
+    (conv1): Conv2d(16, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+    (bn1): GBN(
+      (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+    (bn2): GBN(
+      (bn): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (block1): Block(
+      (skip): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+      (skipbn): GBN(
+        (bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=64, bias=False)
+          (pointwise): Conv2d(64, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=128, bias=False)
+          (pointwise): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): SeparableConv2d_same(
+          (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=128, bias=False)
+          (pointwise): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+      )
+    )
+    (block2): Block(
+      (skip): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+      (skipbn): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=128, bias=False)
+          (pointwise): Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=256, bias=False)
+          (pointwise): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): SeparableConv2d_same(
+          (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=256, bias=False)
+          (pointwise): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+      )
+    )
+    (block3): Block(
+      (skip): Conv2d(256, 728, kernel_size=(1, 1), stride=(2, 2), bias=False)
+      (skipbn): GBN(
+        (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=256, bias=False)
+          (pointwise): Conv2d(256, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+      )
+    )
+    (block4): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block5): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block6): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block7): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block8): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block9): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block10): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block11): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block12): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block13): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block14): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block15): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block16): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block17): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block18): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block19): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block20): Block(
+      (skip): Conv2d(728, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (skipbn): GBN(
+        (bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): SeparableConv2d_same(
+          (conv1): Conv2d(1024, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=1024, bias=False)
+          (pointwise): Conv2d(1024, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+      )
+    )
+    (conv3): SeparableConv2d_same(
+      (conv1): Conv2d(1024, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2), groups=1024, bias=False)
+      (pointwise): Conv2d(1024, 1536, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    )
+    (bn3): GBN(
+      (bn): BatchNorm2d(1536, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (conv4): SeparableConv2d_same(
+      (conv1): Conv2d(1536, 1536, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2), groups=1536, bias=False)
+      (pointwise): Conv2d(1536, 1536, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    )
+    (bn4): GBN(
+      (bn): BatchNorm2d(1536, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (conv5): SeparableConv2d_same(
+      (conv1): Conv2d(1536, 1536, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2), groups=1536, bias=False)
+      (pointwise): Conv2d(1536, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    )
+    (bn5): GBN(
+      (bn): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (bottleneck): Bottleneck(
+    (aspp1): ASPP_module(
+      (atrous_convolution): Conv2d(2048, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU()
+    )
+    (aspp2): ASPP_module(
+      (atrous_convolution): Conv2d(2048, 256, kernel_size=(3, 3), stride=(1, 1), padding=(6, 6), dilation=(6, 6), bias=False)
+      (bn): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU()
+    )
+    (aspp3): ASPP_module(
+      (atrous_convolution): Conv2d(2048, 256, kernel_size=(3, 3), stride=(1, 1), padding=(12, 12), dilation=(12, 12), bias=False)
+      (bn): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU()
+    )
+    (aspp4): ASPP_module(
+      (atrous_convolution): Conv2d(2048, 256, kernel_size=(3, 3), stride=(1, 1), padding=(18, 18), dilation=(18, 18), bias=False)
+      (bn): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU()
+    )
+    (global_avg_pool): GlobalAveragePool(
+      (global_average_pool): Sequential(
+        (0): AdaptiveAvgPool2d(output_size=(1, 1))
+        (1): Conv2d(2048, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (2): TrainableAffine()
+        (3): ReLU()
+      )
+    )
+    (conv): Conv2d(1280, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (bn): GBN(
+      (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (relu): ReLU()
+  )
+  (conv2): Conv2d(128, 48, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bn2): GBN(
+    (bn): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (relu): ReLU()
+  (upsample): DeconvUpsampler(
+    (deconv1): Sequential(
+      (0): ConvTranspose2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1), bias=False)
+      (1): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): ReLU()
+      (3): ConvTranspose2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1), bias=False)
+      (4): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (5): ReLU()
+    )
+    (conv1): Sequential(
+      (0): Conv2d(304, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): ReLU()
+      (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (4): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (5): ReLU()
+      (6): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1))
+    )
+    (deconv2): Sequential(
+      (0): ConvTranspose2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1), bias=False)
+      (1): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): ReLU()
+    )
+    (last_deconv): Sequential(
+      (0): ConvTranspose2d(256, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1), bias=False)
+    )
+  )
+)
+Total number of elements: 56454720
+Initialized dataset with  121266  samples.
+Initialized dataset with  15158  samples.
+:::MLLOG {"namespace": "", "time_ms": 1688660960312, "event_type": "POINT_IN_TIME", "key": "train_samples", "value": 121266, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 185}}
+:::MLLOG {"namespace": "", "time_ms": 1688660960312, "event_type": "POINT_IN_TIME", "key": "eval_samples", "value": 15158, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 187}}
+:::MLLOG {"namespace": "", "time_ms": 1688660960328, "event_type": "INTERVAL_END", "key": "init_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 197}}
+:::MLLOG {"namespace": "", "time_ms": 1688660960329, "event_type": "INTERVAL_START", "key": "run_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 198}}
+:::MLLOG {"namespace": "", "time_ms": 1688660960329, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/train.py", "lineno": 204, "epoch_num": 1, "step_num": 0}}
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+:::MLLOG {"namespace": "", "time_ms": 1688660984691, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0001375, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 10}}
+:::MLLOG {"namespace": "", "time_ms": 1688660984692, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.12709926068782806, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 10}}
+:::MLLOG {"namespace": "", "time_ms": 1688660984693, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 1.6160123348236084, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 10}}
+:::MLLOG {"namespace": "", "time_ms": 1688660986994, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000275, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 20}}
+:::MLLOG {"namespace": "", "time_ms": 1688660986994, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.14966921508312225, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 20}}
+:::MLLOG {"namespace": "", "time_ms": 1688660986994, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 1.3575828075408936, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 20}}
+:::MLLOG {"namespace": "", "time_ms": 1688660989321, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00041249999999999994, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 30}}
+:::MLLOG {"namespace": "", "time_ms": 1688660989321, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.20792648196220398, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 30}}
+:::MLLOG {"namespace": "", "time_ms": 1688660989321, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 1.0143567323684692, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 30}}
+:::MLLOG {"namespace": "", "time_ms": 1688660991646, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00055, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 40}}
+:::MLLOG {"namespace": "", "time_ms": 1688660991646, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.2812095880508423, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 40}}
+:::MLLOG {"namespace": "", "time_ms": 1688660991646, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.7033950090408325, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 40}}
+:::MLLOG {"namespace": "", "time_ms": 1688660994085, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0006875, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 50}}
+:::MLLOG {"namespace": "", "time_ms": 1688660994085, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.32140928506851196, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 50}}
+:::MLLOG {"namespace": "", "time_ms": 1688660994086, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.43393492698669434, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 50}}
+:::MLLOG {"namespace": "", "time_ms": 1688660996536, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0008249999999999999, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 60}}
+:::MLLOG {"namespace": "", "time_ms": 1688660996536, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.32748082280158997, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 60}}
+:::MLLOG {"namespace": "", "time_ms": 1688660996536, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.2622048556804657, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 60}}
+:::MLLOG {"namespace": "", "time_ms": 1688660998879, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0009625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 70}}
+:::MLLOG {"namespace": "", "time_ms": 1688660998880, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.32782870531082153, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 70}}
+:::MLLOG {"namespace": "", "time_ms": 1688660998880, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.16823123395442963, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 70}}
+:::MLLOG {"namespace": "", "time_ms": 1688661001206, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0011, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 80}}
+:::MLLOG {"namespace": "", "time_ms": 1688661001206, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.335356742143631, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 80}}
+:::MLLOG {"namespace": "", "time_ms": 1688661001206, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.11218466609716415, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 80}}
+:::MLLOG {"namespace": "", "time_ms": 1688661003571, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0012374999999999999, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 90}}
+:::MLLOG {"namespace": "", "time_ms": 1688661003572, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.3886772394180298, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 90}}
+:::MLLOG {"namespace": "", "time_ms": 1688661003572, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.06954386085271835, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 90}}
+:::MLLOG {"namespace": "", "time_ms": 1688661005881, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.001375, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 100}}
+:::MLLOG {"namespace": "", "time_ms": 1688661005881, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.444541335105896, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 100}}
+:::MLLOG {"namespace": "", "time_ms": 1688661005881, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.057667091488838196, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 100}}
+:::MLLOG {"namespace": "", "time_ms": 1688661008174, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0015125, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 110}}
+:::MLLOG {"namespace": "", "time_ms": 1688661008177, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.4200196862220764, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 110}}
+:::MLLOG {"namespace": "", "time_ms": 1688661008177, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.06318322569131851, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 110}}
+:::MLLOG {"namespace": "", "time_ms": 1688661010389, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0016499999999999998, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 120}}
+:::MLLOG {"namespace": "", "time_ms": 1688661010389, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.4241514801979065, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 120}}
+:::MLLOG {"namespace": "", "time_ms": 1688661010389, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.05100562423467636, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 120}}
+:::MLLOG {"namespace": "", "time_ms": 1688661012669, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0017875, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 130}}
+:::MLLOG {"namespace": "", "time_ms": 1688661012670, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.46460551023483276, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 130}}
+:::MLLOG {"namespace": "", "time_ms": 1688661012670, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.049222953617572784, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 130}}
+:::MLLOG {"namespace": "", "time_ms": 1688661014903, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.001925, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 140}}
+:::MLLOG {"namespace": "", "time_ms": 1688661014903, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.4867486357688904, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 140}}
+:::MLLOG {"namespace": "", "time_ms": 1688661014903, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.04956518113613129, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 140}}
+:::MLLOG {"namespace": "", "time_ms": 1688661017219, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0020625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 150}}
+:::MLLOG {"namespace": "", "time_ms": 1688661017220, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5169249773025513, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 150}}
+:::MLLOG {"namespace": "", "time_ms": 1688661017220, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.0444849357008934, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 150}}
+:::MLLOG {"namespace": "", "time_ms": 1688661019408, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0022, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 160}}
+:::MLLOG {"namespace": "", "time_ms": 1688661019408, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.49476322531700134, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 160}}
+:::MLLOG {"namespace": "", "time_ms": 1688661019409, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.045835576951503754, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 160}}
+:::MLLOG {"namespace": "", "time_ms": 1688661021621, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0023374999999999997, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 170}}
+:::MLLOG {"namespace": "", "time_ms": 1688661021622, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.4928790330886841, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 170}}
+:::MLLOG {"namespace": "", "time_ms": 1688661021622, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.048753321170806885, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 170}}
+:::MLLOG {"namespace": "", "time_ms": 1688661023860, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0024749999999999998, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 180}}
+:::MLLOG {"namespace": "", "time_ms": 1688661023861, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.47059014439582825, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 180}}
+:::MLLOG {"namespace": "", "time_ms": 1688661023861, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.04235631972551346, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 180}}
+:::MLLOG {"namespace": "", "time_ms": 1688661026085, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0026125000000000002, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 190}}
+:::MLLOG {"namespace": "", "time_ms": 1688661026085, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.4763721823692322, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 190}}
+:::MLLOG {"namespace": "", "time_ms": 1688661026086, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.04217088967561722, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 190}}
+:::MLLOG {"namespace": "", "time_ms": 1688661028387, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00275, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 200}}
+:::MLLOG {"namespace": "", "time_ms": 1688661028387, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.4663369357585907, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 200}}
+:::MLLOG {"namespace": "", "time_ms": 1688661028388, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.055926427245140076, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 200}}
+:::MLLOG {"namespace": "", "time_ms": 1688661030600, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0028875, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 210}}
+:::MLLOG {"namespace": "", "time_ms": 1688661030600, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.4780445694923401, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 210}}
+:::MLLOG {"namespace": "", "time_ms": 1688661030600, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.047291651368141174, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 210}}
+:::MLLOG {"namespace": "", "time_ms": 1688661032824, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.003025, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 220}}
+:::MLLOG {"namespace": "", "time_ms": 1688661032824, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5242459774017334, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 220}}
+:::MLLOG {"namespace": "", "time_ms": 1688661032824, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.04414694756269455, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 220}}
+:::MLLOG {"namespace": "", "time_ms": 1688661035142, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0031625000000000004, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 230}}
+:::MLLOG {"namespace": "", "time_ms": 1688661035142, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5307365655899048, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 230}}
+:::MLLOG {"namespace": "", "time_ms": 1688661035143, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.04184630140662193, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 230}}
+:::MLLOG {"namespace": "", "time_ms": 1688661037387, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0032999999999999995, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 240}}
+:::MLLOG {"namespace": "", "time_ms": 1688661037387, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5281887650489807, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 240}}
+:::MLLOG {"namespace": "", "time_ms": 1688661037387, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.036609113216400146, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 240}}
+:::MLLOG {"namespace": "", "time_ms": 1688661039634, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0034374999999999996, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 250}}
+:::MLLOG {"namespace": "", "time_ms": 1688661039635, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5238751173019409, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 250}}
+:::MLLOG {"namespace": "", "time_ms": 1688661039635, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.04011340066790581, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 250}}
+:::MLLOG {"namespace": "", "time_ms": 1688661042027, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.003575, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 260}}
+:::MLLOG {"namespace": "", "time_ms": 1688661042028, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5237283706665039, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 260}}
+:::MLLOG {"namespace": "", "time_ms": 1688661042028, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.037260305136442184, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 260}}
+:::MLLOG {"namespace": "", "time_ms": 1688661044389, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0037125, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 270}}
+:::MLLOG {"namespace": "", "time_ms": 1688661044390, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5154881477355957, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 270}}
+:::MLLOG {"namespace": "", "time_ms": 1688661044390, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.04341745749115944, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 270}}
+:::MLLOG {"namespace": "", "time_ms": 1688661046778, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00385, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 280}}
+:::MLLOG {"namespace": "", "time_ms": 1688661046779, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.514711856842041, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 280}}
+:::MLLOG {"namespace": "", "time_ms": 1688661046779, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.045197948813438416, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 280}}
+:::MLLOG {"namespace": "", "time_ms": 1688661049118, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0039875, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 290}}
+:::MLLOG {"namespace": "", "time_ms": 1688661049119, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.523414134979248, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 290}}
+:::MLLOG {"namespace": "", "time_ms": 1688661049119, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.037557072937488556, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 290}}
+:::MLLOG {"namespace": "", "time_ms": 1688661051483, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.004125, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 300}}
+:::MLLOG {"namespace": "", "time_ms": 1688661051484, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5949655771255493, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 300}}
+:::MLLOG {"namespace": "", "time_ms": 1688661051484, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.04376345872879028, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 300}}
+:::MLLOG {"namespace": "", "time_ms": 1688661053822, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0042625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 310}}
+:::MLLOG {"namespace": "", "time_ms": 1688661053822, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.4630838632583618, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 310}}
+:::MLLOG {"namespace": "", "time_ms": 1688661053822, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.040346596390008926, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 310}}
+:::MLLOG {"namespace": "", "time_ms": 1688661056180, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0044, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 320}}
+:::MLLOG {"namespace": "", "time_ms": 1688661056180, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5180790424346924, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 320}}
+:::MLLOG {"namespace": "", "time_ms": 1688661056180, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03754555061459541, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 320}}
+:::MLLOG {"namespace": "", "time_ms": 1688661058573, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0045375, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 330}}
+:::MLLOG {"namespace": "", "time_ms": 1688661058574, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5384678244590759, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 330}}
+:::MLLOG {"namespace": "", "time_ms": 1688661058574, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03509334474802017, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 330}}
+:::MLLOG {"namespace": "", "time_ms": 1688661060818, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0046749999999999995, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 340}}
+:::MLLOG {"namespace": "", "time_ms": 1688661060818, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5107740163803101, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 340}}
+:::MLLOG {"namespace": "", "time_ms": 1688661060819, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.04023018479347229, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 340}}
+:::MLLOG {"namespace": "", "time_ms": 1688661063120, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0048125, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 350}}
+:::MLLOG {"namespace": "", "time_ms": 1688661063120, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.612430989742279, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 350}}
+:::MLLOG {"namespace": "", "time_ms": 1688661063121, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03804847598075867, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 350}}
+:::MLLOG {"namespace": "", "time_ms": 1688661065385, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0049499999999999995, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 360}}
+:::MLLOG {"namespace": "", "time_ms": 1688661065386, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5200071334838867, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 360}}
+:::MLLOG {"namespace": "", "time_ms": 1688661065386, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.035015303641557693, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 360}}
+:::MLLOG {"namespace": "", "time_ms": 1688661067670, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0050875, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 370}}
+:::MLLOG {"namespace": "", "time_ms": 1688661067671, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5435025691986084, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 370}}
+:::MLLOG {"namespace": "", "time_ms": 1688661067671, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.034590184688568115, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 370}}
+:::MLLOG {"namespace": "", "time_ms": 1688661069929, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.0052250000000000005, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 380}}
+:::MLLOG {"namespace": "", "time_ms": 1688661069931, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.537443995475769, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 380}}
+:::MLLOG {"namespace": "", "time_ms": 1688661069931, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03580901026725769, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 380}}
+:::MLLOG {"namespace": "", "time_ms": 1688661072173, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.005362499999999999, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 390}}
+:::MLLOG {"namespace": "", "time_ms": 1688661072174, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.4548625946044922, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 390}}
+:::MLLOG {"namespace": "", "time_ms": 1688661072174, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.045189909636974335, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 390}}
+:::MLLOG {"namespace": "", "time_ms": 1688661074602, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 400}}
+:::MLLOG {"namespace": "", "time_ms": 1688661074602, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5081148147583008, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 400}}
+:::MLLOG {"namespace": "", "time_ms": 1688661074602, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.04373772442340851, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 400}}
+:::MLLOG {"namespace": "", "time_ms": 1688661077057, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 410}}
+:::MLLOG {"namespace": "", "time_ms": 1688661077057, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5331003665924072, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 410}}
+:::MLLOG {"namespace": "", "time_ms": 1688661077057, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03787899762392044, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 410}}
+:::MLLOG {"namespace": "", "time_ms": 1688661079435, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 420}}
+:::MLLOG {"namespace": "", "time_ms": 1688661079435, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5844160914421082, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 420}}
+:::MLLOG {"namespace": "", "time_ms": 1688661079435, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.034173283725976944, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 420}}
+:::MLLOG {"namespace": "", "time_ms": 1688661081838, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 430}}
+:::MLLOG {"namespace": "", "time_ms": 1688661081839, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5195412635803223, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 430}}
+:::MLLOG {"namespace": "", "time_ms": 1688661081839, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03429580479860306, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 430}}
+:::MLLOG {"namespace": "", "time_ms": 1688661084394, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 440}}
+:::MLLOG {"namespace": "", "time_ms": 1688661084395, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5566310882568359, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 440}}
+:::MLLOG {"namespace": "", "time_ms": 1688661084395, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03004477545619011, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 440}}
+:::MLLOG {"namespace": "", "time_ms": 1688661086644, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 450}}
+:::MLLOG {"namespace": "", "time_ms": 1688661086644, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5451183319091797, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 450}}
+:::MLLOG {"namespace": "", "time_ms": 1688661086644, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.029574323445558548, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 450}}
+:::MLLOG {"namespace": "", "time_ms": 1688661088999, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 460}}
+:::MLLOG {"namespace": "", "time_ms": 1688661089000, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.556755542755127, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 460}}
+:::MLLOG {"namespace": "", "time_ms": 1688661089000, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.036528393626213074, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 460}}
+:::MLLOG {"namespace": "", "time_ms": 1688661091292, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 470}}
+:::MLLOG {"namespace": "", "time_ms": 1688661091292, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.47001883387565613, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 470}}
+:::MLLOG {"namespace": "", "time_ms": 1688661091292, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03841497376561165, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 470}}
+:::MLLOG {"namespace": "", "time_ms": 1688661093678, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 480}}
+:::MLLOG {"namespace": "", "time_ms": 1688661093679, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5694155097007751, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 480}}
+:::MLLOG {"namespace": "", "time_ms": 1688661093679, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.032426171004772186, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 480}}
+:::MLLOG {"namespace": "", "time_ms": 1688661095969, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 490}}
+:::MLLOG {"namespace": "", "time_ms": 1688661095969, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5443117618560791, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 490}}
+:::MLLOG {"namespace": "", "time_ms": 1688661095969, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.034654468297958374, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 490}}
+:::MLLOG {"namespace": "", "time_ms": 1688661098229, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 500}}
+:::MLLOG {"namespace": "", "time_ms": 1688661098229, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5545074939727783, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 500}}
+:::MLLOG {"namespace": "", "time_ms": 1688661098229, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03610658273100853, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 500}}
+:::MLLOG {"namespace": "", "time_ms": 1688661100537, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 510}}
+:::MLLOG {"namespace": "", "time_ms": 1688661100538, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.556724488735199, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 510}}
+:::MLLOG {"namespace": "", "time_ms": 1688661100538, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.036721959710121155, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 510}}
+:::MLLOG {"namespace": "", "time_ms": 1688661102861, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 520}}
+:::MLLOG {"namespace": "", "time_ms": 1688661102862, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6064465045928955, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 520}}
+:::MLLOG {"namespace": "", "time_ms": 1688661102862, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.028649140149354935, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 520}}
+:::MLLOG {"namespace": "", "time_ms": 1688661105152, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 530}}
+:::MLLOG {"namespace": "", "time_ms": 1688661105152, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5105337500572205, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 530}}
+:::MLLOG {"namespace": "", "time_ms": 1688661105152, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.04078850522637367, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 530}}
+:::MLLOG {"namespace": "", "time_ms": 1688661107387, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 540}}
+:::MLLOG {"namespace": "", "time_ms": 1688661107388, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5318840146064758, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 540}}
+:::MLLOG {"namespace": "", "time_ms": 1688661107388, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03122597187757492, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 540}}
+:::MLLOG {"namespace": "", "time_ms": 1688661109737, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 550}}
+:::MLLOG {"namespace": "", "time_ms": 1688661109738, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5633355379104614, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 550}}
+:::MLLOG {"namespace": "", "time_ms": 1688661109738, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03687499091029167, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 550}}
+:::MLLOG {"namespace": "", "time_ms": 1688661112126, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 560}}
+:::MLLOG {"namespace": "", "time_ms": 1688661112127, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5613338947296143, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 560}}
+:::MLLOG {"namespace": "", "time_ms": 1688661112127, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03180008381605148, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 560}}
+:::MLLOG {"namespace": "", "time_ms": 1688661114433, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 570}}
+:::MLLOG {"namespace": "", "time_ms": 1688661114433, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5785171985626221, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 570}}
+:::MLLOG {"namespace": "", "time_ms": 1688661114433, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.033265359699726105, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 570}}
+:::MLLOG {"namespace": "", "time_ms": 1688661116917, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 580}}
+:::MLLOG {"namespace": "", "time_ms": 1688661116918, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5494510531425476, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 580}}
+:::MLLOG {"namespace": "", "time_ms": 1688661116918, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.028599515557289124, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 580}}
+:::MLLOG {"namespace": "", "time_ms": 1688661119227, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 590}}
+:::MLLOG {"namespace": "", "time_ms": 1688661119228, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5848533511161804, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 590}}
+:::MLLOG {"namespace": "", "time_ms": 1688661119228, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03765733167529106, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 590}}
+:::MLLOG {"namespace": "", "time_ms": 1688661121630, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 600}}
+:::MLLOG {"namespace": "", "time_ms": 1688661121630, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5908658504486084, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 600}}
+:::MLLOG {"namespace": "", "time_ms": 1688661121631, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02303232252597809, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 600}}
+:::MLLOG {"namespace": "", "time_ms": 1688661123972, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 610}}
+:::MLLOG {"namespace": "", "time_ms": 1688661123972, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.534746527671814, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 610}}
+:::MLLOG {"namespace": "", "time_ms": 1688661123973, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.031985655426979065, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 610}}
+:::MLLOG {"namespace": "", "time_ms": 1688661126231, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 620}}
+:::MLLOG {"namespace": "", "time_ms": 1688661126231, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5622835159301758, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 620}}
+:::MLLOG {"namespace": "", "time_ms": 1688661126232, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03854231536388397, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 620}}
+:::MLLOG {"namespace": "", "time_ms": 1688661128483, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 630}}
+:::MLLOG {"namespace": "", "time_ms": 1688661128483, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5910558700561523, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 630}}
+:::MLLOG {"namespace": "", "time_ms": 1688661128484, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02441112883388996, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 630}}
+:::MLLOG {"namespace": "", "time_ms": 1688661130754, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 640}}
+:::MLLOG {"namespace": "", "time_ms": 1688661130756, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5824086666107178, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 640}}
+:::MLLOG {"namespace": "", "time_ms": 1688661130756, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.026071682572364807, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 640}}
+:::MLLOG {"namespace": "", "time_ms": 1688661133000, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 650}}
+:::MLLOG {"namespace": "", "time_ms": 1688661133001, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.592666506767273, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 650}}
+:::MLLOG {"namespace": "", "time_ms": 1688661133001, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.030167298391461372, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 650}}
+:::MLLOG {"namespace": "", "time_ms": 1688661135266, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 660}}
+:::MLLOG {"namespace": "", "time_ms": 1688661135267, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5944362282752991, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 660}}
+:::MLLOG {"namespace": "", "time_ms": 1688661135267, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03579290211200714, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 660}}
+:::MLLOG {"namespace": "", "time_ms": 1688661137497, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 670}}
+:::MLLOG {"namespace": "", "time_ms": 1688661137497, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.589471697807312, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 670}}
+:::MLLOG {"namespace": "", "time_ms": 1688661137497, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.029193690046668053, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 670}}
+:::MLLOG {"namespace": "", "time_ms": 1688661139913, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 680}}
+:::MLLOG {"namespace": "", "time_ms": 1688661139913, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5560162663459778, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 680}}
+:::MLLOG {"namespace": "", "time_ms": 1688661139914, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03537670150399208, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 680}}
+:::MLLOG {"namespace": "", "time_ms": 1688661142203, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 690}}
+:::MLLOG {"namespace": "", "time_ms": 1688661142204, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5664135217666626, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 690}}
+:::MLLOG {"namespace": "", "time_ms": 1688661142204, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.030390433967113495, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 690}}
+:::MLLOG {"namespace": "", "time_ms": 1688661144489, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 700}}
+:::MLLOG {"namespace": "", "time_ms": 1688661144489, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.534159779548645, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 700}}
+:::MLLOG {"namespace": "", "time_ms": 1688661144489, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.030926425009965897, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 700}}
+:::MLLOG {"namespace": "", "time_ms": 1688661146728, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 710}}
+:::MLLOG {"namespace": "", "time_ms": 1688661146728, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.545792818069458, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 710}}
+:::MLLOG {"namespace": "", "time_ms": 1688661146728, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03545381873846054, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 710}}
+:::MLLOG {"namespace": "", "time_ms": 1688661148955, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 720}}
+:::MLLOG {"namespace": "", "time_ms": 1688661148955, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5786724090576172, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 720}}
+:::MLLOG {"namespace": "", "time_ms": 1688661148955, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.025858072564005852, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 720}}
+:::MLLOG {"namespace": "", "time_ms": 1688661151223, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 730}}
+:::MLLOG {"namespace": "", "time_ms": 1688661151224, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5723350048065186, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 730}}
+:::MLLOG {"namespace": "", "time_ms": 1688661151224, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03489779680967331, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 730}}
+:::MLLOG {"namespace": "", "time_ms": 1688661153462, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 740}}
+:::MLLOG {"namespace": "", "time_ms": 1688661153462, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5834074020385742, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 740}}
+:::MLLOG {"namespace": "", "time_ms": 1688661153463, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.027452314272522926, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 740}}
+:::MLLOG {"namespace": "", "time_ms": 1688661155769, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 750}}
+:::MLLOG {"namespace": "", "time_ms": 1688661155770, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5527169108390808, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 750}}
+:::MLLOG {"namespace": "", "time_ms": 1688661155770, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03259172663092613, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 750}}
+:::MLLOG {"namespace": "", "time_ms": 1688661158112, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 760}}
+:::MLLOG {"namespace": "", "time_ms": 1688661158113, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6374204158782959, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 760}}
+:::MLLOG {"namespace": "", "time_ms": 1688661158113, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02690793201327324, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 760}}
+:::MLLOG {"namespace": "", "time_ms": 1688661160404, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 770}}
+:::MLLOG {"namespace": "", "time_ms": 1688661160405, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5316088199615479, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 770}}
+:::MLLOG {"namespace": "", "time_ms": 1688661160405, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.029301511123776436, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 770}}
+:::MLLOG {"namespace": "", "time_ms": 1688661162709, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 780}}
+:::MLLOG {"namespace": "", "time_ms": 1688661162710, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5623106956481934, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 780}}
+:::MLLOG {"namespace": "", "time_ms": 1688661162710, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02978958562016487, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 780}}
+:::MLLOG {"namespace": "", "time_ms": 1688661165079, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 790}}
+:::MLLOG {"namespace": "", "time_ms": 1688661165080, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6339215040206909, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 790}}
+:::MLLOG {"namespace": "", "time_ms": 1688661165080, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.024168366566300392, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 790}}
+:::MLLOG {"namespace": "", "time_ms": 1688661167280, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 800}}
+:::MLLOG {"namespace": "", "time_ms": 1688661167281, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.60294508934021, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 800}}
+:::MLLOG {"namespace": "", "time_ms": 1688661167281, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.01872185803949833, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 800}}
+:::MLLOG {"namespace": "", "time_ms": 1688661169473, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 810}}
+:::MLLOG {"namespace": "", "time_ms": 1688661169473, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6009151935577393, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 810}}
+:::MLLOG {"namespace": "", "time_ms": 1688661169473, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03059385158121586, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 810}}
+:::MLLOG {"namespace": "", "time_ms": 1688661171692, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 820}}
+:::MLLOG {"namespace": "", "time_ms": 1688661171692, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5781422257423401, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 820}}
+:::MLLOG {"namespace": "", "time_ms": 1688661171692, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.024804478511214256, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 820}}
+:::MLLOG {"namespace": "", "time_ms": 1688661173979, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 830}}
+:::MLLOG {"namespace": "", "time_ms": 1688661173979, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5896874666213989, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 830}}
+:::MLLOG {"namespace": "", "time_ms": 1688661173979, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.0338454395532608, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 830}}
+:::MLLOG {"namespace": "", "time_ms": 1688661176211, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 840}}
+:::MLLOG {"namespace": "", "time_ms": 1688661176212, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6696629524230957, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 840}}
+:::MLLOG {"namespace": "", "time_ms": 1688661176212, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.022289946675300598, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 840}}
+:::MLLOG {"namespace": "", "time_ms": 1688661178465, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 850}}
+:::MLLOG {"namespace": "", "time_ms": 1688661178466, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6124081611633301, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 850}}
+:::MLLOG {"namespace": "", "time_ms": 1688661178466, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.029844649136066437, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 850}}
+:::MLLOG {"namespace": "", "time_ms": 1688661180778, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 860}}
+:::MLLOG {"namespace": "", "time_ms": 1688661180778, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5756731629371643, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 860}}
+:::MLLOG {"namespace": "", "time_ms": 1688661180778, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.033613529056310654, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 860}}
+:::MLLOG {"namespace": "", "time_ms": 1688661183108, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 870}}
+:::MLLOG {"namespace": "", "time_ms": 1688661183109, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5653376579284668, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 870}}
+:::MLLOG {"namespace": "", "time_ms": 1688661183109, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03433346375823021, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 870}}
+:::MLLOG {"namespace": "", "time_ms": 1688661185462, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 880}}
+:::MLLOG {"namespace": "", "time_ms": 1688661185462, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6015439629554749, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 880}}
+:::MLLOG {"namespace": "", "time_ms": 1688661185462, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.031269729137420654, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 880}}
+:::MLLOG {"namespace": "", "time_ms": 1688661187710, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 890}}
+:::MLLOG {"namespace": "", "time_ms": 1688661187710, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6446357369422913, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 890}}
+:::MLLOG {"namespace": "", "time_ms": 1688661187710, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.029204100370407104, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 890}}
+:::MLLOG {"namespace": "", "time_ms": 1688661190184, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 900}}
+:::MLLOG {"namespace": "", "time_ms": 1688661190184, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.563135027885437, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 900}}
+:::MLLOG {"namespace": "", "time_ms": 1688661190184, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03166819363832474, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 900}}
+:::MLLOG {"namespace": "", "time_ms": 1688661192716, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 910}}
+:::MLLOG {"namespace": "", "time_ms": 1688661192718, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.536345362663269, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 910}}
+:::MLLOG {"namespace": "", "time_ms": 1688661192718, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.032014399766922, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 910}}
+:::MLLOG {"namespace": "", "time_ms": 1688661195473, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 920}}
+:::MLLOG {"namespace": "", "time_ms": 1688661195474, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5977722406387329, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 920}}
+:::MLLOG {"namespace": "", "time_ms": 1688661195474, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.029814712703227997, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 920}}
+:::MLLOG {"namespace": "", "time_ms": 1688661198066, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 930}}
+:::MLLOG {"namespace": "", "time_ms": 1688661198066, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5939563512802124, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 930}}
+:::MLLOG {"namespace": "", "time_ms": 1688661198066, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02513740584254265, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 930}}
+:::MLLOG {"namespace": "", "time_ms": 1688661200782, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 940}}
+:::MLLOG {"namespace": "", "time_ms": 1688661200782, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5689188241958618, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 940}}
+:::MLLOG {"namespace": "", "time_ms": 1688661200783, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.029995691031217575, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 940}}
+:::MLLOG {"namespace": "", "time_ms": 1688661203378, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 950}}
+:::MLLOG {"namespace": "", "time_ms": 1688661203378, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6452744007110596, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 950}}
+:::MLLOG {"namespace": "", "time_ms": 1688661203378, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03052142634987831, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 950}}
+:::MLLOG {"namespace": "", "time_ms": 1688661206188, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 960}}
+:::MLLOG {"namespace": "", "time_ms": 1688661206189, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6148183345794678, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 960}}
+:::MLLOG {"namespace": "", "time_ms": 1688661206189, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.025187283754348755, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 960}}
+:::MLLOG {"namespace": "", "time_ms": 1688661208893, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 970}}
+:::MLLOG {"namespace": "", "time_ms": 1688661208894, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5896499156951904, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 970}}
+:::MLLOG {"namespace": "", "time_ms": 1688661208894, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03086332604289055, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 970}}
+:::MLLOG {"namespace": "", "time_ms": 1688661211538, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 980}}
+:::MLLOG {"namespace": "", "time_ms": 1688661211539, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5278644561767578, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 980}}
+:::MLLOG {"namespace": "", "time_ms": 1688661211539, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.026954177767038345, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 980}}
+:::MLLOG {"namespace": "", "time_ms": 1688661214136, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 990}}
+:::MLLOG {"namespace": "", "time_ms": 1688661214136, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.570292055606842, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 990}}
+:::MLLOG {"namespace": "", "time_ms": 1688661214136, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02839626371860504, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 990}}
+:::MLLOG {"namespace": "", "time_ms": 1688661216757, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1000}}
+:::MLLOG {"namespace": "", "time_ms": 1688661216757, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.602264404296875, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1000}}
+:::MLLOG {"namespace": "", "time_ms": 1688661216758, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03487652540206909, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1000}}
+:::MLLOG {"namespace": "", "time_ms": 1688661219453, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1010}}
+:::MLLOG {"namespace": "", "time_ms": 1688661219454, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6174567937850952, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1010}}
+:::MLLOG {"namespace": "", "time_ms": 1688661219454, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02637104131281376, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1010}}
+:::MLLOG {"namespace": "", "time_ms": 1688661222115, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1020}}
+:::MLLOG {"namespace": "", "time_ms": 1688661222115, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.525397777557373, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1020}}
+:::MLLOG {"namespace": "", "time_ms": 1688661222116, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.027629604563117027, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1020}}
+:::MLLOG {"namespace": "", "time_ms": 1688661224579, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1030}}
+:::MLLOG {"namespace": "", "time_ms": 1688661224580, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5864447951316833, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1030}}
+:::MLLOG {"namespace": "", "time_ms": 1688661224580, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02782440185546875, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1030}}
+:::MLLOG {"namespace": "", "time_ms": 1688661226797, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1040}}
+:::MLLOG {"namespace": "", "time_ms": 1688661226797, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5856800079345703, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1040}}
+:::MLLOG {"namespace": "", "time_ms": 1688661226797, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.034571658819913864, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1040}}
+:::MLLOG {"namespace": "", "time_ms": 1688661229113, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1050}}
+:::MLLOG {"namespace": "", "time_ms": 1688661229113, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5732384324073792, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1050}}
+:::MLLOG {"namespace": "", "time_ms": 1688661229113, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03234434872865677, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1050}}
+:::MLLOG {"namespace": "", "time_ms": 1688661231631, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1060}}
+:::MLLOG {"namespace": "", "time_ms": 1688661231631, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5924889445304871, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1060}}
+:::MLLOG {"namespace": "", "time_ms": 1688661231631, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02752140536904335, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1060}}
+:::MLLOG {"namespace": "", "time_ms": 1688661234094, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1070}}
+:::MLLOG {"namespace": "", "time_ms": 1688661234095, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5437576770782471, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1070}}
+:::MLLOG {"namespace": "", "time_ms": 1688661234095, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.0314243920147419, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1070}}
+:::MLLOG {"namespace": "", "time_ms": 1688661236574, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1080}}
+:::MLLOG {"namespace": "", "time_ms": 1688661236574, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5862658619880676, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1080}}
+:::MLLOG {"namespace": "", "time_ms": 1688661236574, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.029695909470319748, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1080}}
+:::MLLOG {"namespace": "", "time_ms": 1688661239054, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1090}}
+:::MLLOG {"namespace": "", "time_ms": 1688661239055, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6216239929199219, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1090}}
+:::MLLOG {"namespace": "", "time_ms": 1688661239055, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.025852691382169724, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1090}}
+:::MLLOG {"namespace": "", "time_ms": 1688661241520, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1100}}
+:::MLLOG {"namespace": "", "time_ms": 1688661241520, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5669827461242676, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1100}}
+:::MLLOG {"namespace": "", "time_ms": 1688661241520, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.0324016809463501, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1100}}
+:::MLLOG {"namespace": "", "time_ms": 1688661244155, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1110}}
+:::MLLOG {"namespace": "", "time_ms": 1688661244155, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6487935185432434, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1110}}
+:::MLLOG {"namespace": "", "time_ms": 1688661244155, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03318720683455467, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1110}}
+:::MLLOG {"namespace": "", "time_ms": 1688661246485, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1120}}
+:::MLLOG {"namespace": "", "time_ms": 1688661246485, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6559945344924927, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1120}}
+:::MLLOG {"namespace": "", "time_ms": 1688661246485, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02536255121231079, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1120}}
+:::MLLOG {"namespace": "", "time_ms": 1688661248763, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1130}}
+:::MLLOG {"namespace": "", "time_ms": 1688661248764, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6178594827651978, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1130}}
+:::MLLOG {"namespace": "", "time_ms": 1688661248764, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.027888519689440727, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1130}}
+:::MLLOG {"namespace": "", "time_ms": 1688661251023, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1140}}
+:::MLLOG {"namespace": "", "time_ms": 1688661251023, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5978808403015137, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1140}}
+:::MLLOG {"namespace": "", "time_ms": 1688661251023, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.028848309069871902, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1140}}
+:::MLLOG {"namespace": "", "time_ms": 1688661253461, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1150}}
+:::MLLOG {"namespace": "", "time_ms": 1688661253463, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5902789235115051, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1150}}
+:::MLLOG {"namespace": "", "time_ms": 1688661253463, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.027481544762849808, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1150}}
+:::MLLOG {"namespace": "", "time_ms": 1688661255788, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1160}}
+:::MLLOG {"namespace": "", "time_ms": 1688661255788, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5753070712089539, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1160}}
+:::MLLOG {"namespace": "", "time_ms": 1688661255788, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.024579549208283424, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1160}}
+:::MLLOG {"namespace": "", "time_ms": 1688661258105, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1170}}
+:::MLLOG {"namespace": "", "time_ms": 1688661258105, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5708119869232178, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1170}}
+:::MLLOG {"namespace": "", "time_ms": 1688661258106, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.029934078454971313, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1170}}
+:::MLLOG {"namespace": "", "time_ms": 1688661260471, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1180}}
+:::MLLOG {"namespace": "", "time_ms": 1688661260472, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5658765435218811, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1180}}
+:::MLLOG {"namespace": "", "time_ms": 1688661260472, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.0258653461933136, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1180}}
+:::MLLOG {"namespace": "", "time_ms": 1688661262767, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1190}}
+:::MLLOG {"namespace": "", "time_ms": 1688661262767, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6176307797431946, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1190}}
+:::MLLOG {"namespace": "", "time_ms": 1688661262768, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.025354484096169472, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1190}}
+:::MLLOG {"namespace": "", "time_ms": 1688661265096, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.00548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1200}}
+:::MLLOG {"namespace": "", "time_ms": 1688661265097, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5558247566223145, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1200}}
+:::MLLOG {"namespace": "", "time_ms": 1688661265097, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.030075237154960632, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1200}}
+:::MLLOG {"namespace": "", "time_ms": 1688661267461, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1210}}
+:::MLLOG {"namespace": "", "time_ms": 1688661267461, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.614575982093811, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1210}}
+:::MLLOG {"namespace": "", "time_ms": 1688661267461, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03161412477493286, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1210}}
+:::MLLOG {"namespace": "", "time_ms": 1688661269819, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1220}}
+:::MLLOG {"namespace": "", "time_ms": 1688661269820, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.584553599357605, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1220}}
+:::MLLOG {"namespace": "", "time_ms": 1688661269820, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.027357539162039757, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1220}}
+:::MLLOG {"namespace": "", "time_ms": 1688661272074, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1230}}
+:::MLLOG {"namespace": "", "time_ms": 1688661272074, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5435311794281006, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1230}}
+:::MLLOG {"namespace": "", "time_ms": 1688661272074, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.030295129865407944, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1230}}
+:::MLLOG {"namespace": "", "time_ms": 1688661274418, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1240}}
+:::MLLOG {"namespace": "", "time_ms": 1688661274419, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6130684614181519, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1240}}
+:::MLLOG {"namespace": "", "time_ms": 1688661274419, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.030732663348317146, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1240}}
+:::MLLOG {"namespace": "", "time_ms": 1688661276738, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1250}}
+:::MLLOG {"namespace": "", "time_ms": 1688661276738, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5862709879875183, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1250}}
+:::MLLOG {"namespace": "", "time_ms": 1688661276738, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02497350051999092, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1250}}
+:::MLLOG {"namespace": "", "time_ms": 1688661279080, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1260}}
+:::MLLOG {"namespace": "", "time_ms": 1688661279081, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.608506441116333, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1260}}
+:::MLLOG {"namespace": "", "time_ms": 1688661279081, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.023389799520373344, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1260}}
+:::MLLOG {"namespace": "", "time_ms": 1688661281433, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1270}}
+:::MLLOG {"namespace": "", "time_ms": 1688661281434, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.667262077331543, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1270}}
+:::MLLOG {"namespace": "", "time_ms": 1688661281434, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.024126790463924408, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1270}}
+:::MLLOG {"namespace": "", "time_ms": 1688661283758, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1280}}
+:::MLLOG {"namespace": "", "time_ms": 1688661283758, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5898122787475586, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1280}}
+:::MLLOG {"namespace": "", "time_ms": 1688661283758, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.028277039527893066, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1280}}
+:::MLLOG {"namespace": "", "time_ms": 1688661286213, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1290}}
+:::MLLOG {"namespace": "", "time_ms": 1688661286213, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5863308906555176, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1290}}
+:::MLLOG {"namespace": "", "time_ms": 1688661286214, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.023825889453291893, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1290}}
+:::MLLOG {"namespace": "", "time_ms": 1688661288627, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1300}}
+:::MLLOG {"namespace": "", "time_ms": 1688661288627, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6082494854927063, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1300}}
+:::MLLOG {"namespace": "", "time_ms": 1688661288627, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.020997319370508194, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1300}}
+:::MLLOG {"namespace": "", "time_ms": 1688661291053, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1310}}
+:::MLLOG {"namespace": "", "time_ms": 1688661291054, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5777463912963867, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1310}}
+:::MLLOG {"namespace": "", "time_ms": 1688661291054, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.024671021848917007, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1310}}
+:::MLLOG {"namespace": "", "time_ms": 1688661293313, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1320}}
+:::MLLOG {"namespace": "", "time_ms": 1688661293313, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6453951597213745, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1320}}
+:::MLLOG {"namespace": "", "time_ms": 1688661293313, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.026460258290171623, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1320}}
+:::MLLOG {"namespace": "", "time_ms": 1688661295718, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1330}}
+:::MLLOG {"namespace": "", "time_ms": 1688661295718, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6140374541282654, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1330}}
+:::MLLOG {"namespace": "", "time_ms": 1688661295718, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02353944070637226, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1330}}
+:::MLLOG {"namespace": "", "time_ms": 1688661298100, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1340}}
+:::MLLOG {"namespace": "", "time_ms": 1688661298101, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.639302134513855, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1340}}
+:::MLLOG {"namespace": "", "time_ms": 1688661298101, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.025427894666790962, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1340}}
+:::MLLOG {"namespace": "", "time_ms": 1688661300571, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1350}}
+:::MLLOG {"namespace": "", "time_ms": 1688661300571, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5943783521652222, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1350}}
+:::MLLOG {"namespace": "", "time_ms": 1688661300571, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.026806510984897614, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1350}}
+:::MLLOG {"namespace": "", "time_ms": 1688661303071, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1360}}
+:::MLLOG {"namespace": "", "time_ms": 1688661303072, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6188493967056274, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1360}}
+:::MLLOG {"namespace": "", "time_ms": 1688661303072, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02647903561592102, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1360}}
+:::MLLOG {"namespace": "", "time_ms": 1688661305459, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1370}}
+:::MLLOG {"namespace": "", "time_ms": 1688661305459, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6211786866188049, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1370}}
+:::MLLOG {"namespace": "", "time_ms": 1688661305459, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.023723052814602852, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1370}}
+:::MLLOG {"namespace": "", "time_ms": 1688661308009, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1380}}
+:::MLLOG {"namespace": "", "time_ms": 1688661308009, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6431534290313721, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1380}}
+:::MLLOG {"namespace": "", "time_ms": 1688661308009, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.026852432638406754, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1380}}
+:::MLLOG {"namespace": "", "time_ms": 1688661310501, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1390}}
+:::MLLOG {"namespace": "", "time_ms": 1688661310501, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6535035967826843, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1390}}
+:::MLLOG {"namespace": "", "time_ms": 1688661310501, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.026738453656435013, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1390}}
+:::MLLOG {"namespace": "", "time_ms": 1688661312912, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1400}}
+:::MLLOG {"namespace": "", "time_ms": 1688661312913, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6154661178588867, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1400}}
+:::MLLOG {"namespace": "", "time_ms": 1688661312913, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.029509255662560463, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1400}}
+:::MLLOG {"namespace": "", "time_ms": 1688661315277, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1410}}
+:::MLLOG {"namespace": "", "time_ms": 1688661315279, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6437323093414307, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1410}}
+:::MLLOG {"namespace": "", "time_ms": 1688661315279, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.025243377313017845, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1410}}
+:::MLLOG {"namespace": "", "time_ms": 1688661317648, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1420}}
+:::MLLOG {"namespace": "", "time_ms": 1688661317648, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6274821162223816, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1420}}
+:::MLLOG {"namespace": "", "time_ms": 1688661317648, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.023392632603645325, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1420}}
+:::MLLOG {"namespace": "", "time_ms": 1688661320025, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1430}}
+:::MLLOG {"namespace": "", "time_ms": 1688661320026, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6241071224212646, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1430}}
+:::MLLOG {"namespace": "", "time_ms": 1688661320026, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03242047131061554, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1430}}
+:::MLLOG {"namespace": "", "time_ms": 1688661322377, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1440}}
+:::MLLOG {"namespace": "", "time_ms": 1688661322377, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6203337907791138, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1440}}
+:::MLLOG {"namespace": "", "time_ms": 1688661322377, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02237430214881897, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1440}}
+:::MLLOG {"namespace": "", "time_ms": 1688661324745, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1450}}
+:::MLLOG {"namespace": "", "time_ms": 1688661324746, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5706454515457153, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1450}}
+:::MLLOG {"namespace": "", "time_ms": 1688661324746, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.023697802796959877, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1450}}
+:::MLLOG {"namespace": "", "time_ms": 1688661327131, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1460}}
+:::MLLOG {"namespace": "", "time_ms": 1688661327131, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5909285545349121, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1460}}
+:::MLLOG {"namespace": "", "time_ms": 1688661327132, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02420801669359207, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1460}}
+:::MLLOG {"namespace": "", "time_ms": 1688661329516, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1470}}
+:::MLLOG {"namespace": "", "time_ms": 1688661329516, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5680276155471802, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1470}}
+:::MLLOG {"namespace": "", "time_ms": 1688661329516, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.030965525656938553, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1470}}
+:::MLLOG {"namespace": "", "time_ms": 1688661331886, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1480}}
+:::MLLOG {"namespace": "", "time_ms": 1688661331886, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6293492317199707, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1480}}
+:::MLLOG {"namespace": "", "time_ms": 1688661331886, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.020213110372424126, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1480}}
+:::MLLOG {"namespace": "", "time_ms": 1688661334319, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1490}}
+:::MLLOG {"namespace": "", "time_ms": 1688661334319, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6033759117126465, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1490}}
+:::MLLOG {"namespace": "", "time_ms": 1688661334319, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.025980185717344284, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1490}}
+:::MLLOG {"namespace": "", "time_ms": 1688661336767, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1500}}
+:::MLLOG {"namespace": "", "time_ms": 1688661336767, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5903494954109192, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1500}}
+:::MLLOG {"namespace": "", "time_ms": 1688661336768, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.03022461198270321, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1500}}
+:::MLLOG {"namespace": "", "time_ms": 1688661339191, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1510}}
+:::MLLOG {"namespace": "", "time_ms": 1688661339192, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5984174013137817, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1510}}
+:::MLLOG {"namespace": "", "time_ms": 1688661339192, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.024514606222510338, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1510}}
+:::MLLOG {"namespace": "", "time_ms": 1688661341655, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1520}}
+:::MLLOG {"namespace": "", "time_ms": 1688661341656, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6005663275718689, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1520}}
+:::MLLOG {"namespace": "", "time_ms": 1688661341656, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02001449093222618, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1520}}
+:::MLLOG {"namespace": "", "time_ms": 1688661344002, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1530}}
+:::MLLOG {"namespace": "", "time_ms": 1688661344002, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6849712133407593, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1530}}
+:::MLLOG {"namespace": "", "time_ms": 1688661344002, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.01922328770160675, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1530}}
+:::MLLOG {"namespace": "", "time_ms": 1688661346410, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1540}}
+:::MLLOG {"namespace": "", "time_ms": 1688661346411, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6440244913101196, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1540}}
+:::MLLOG {"namespace": "", "time_ms": 1688661346411, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02328471466898918, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1540}}
+:::MLLOG {"namespace": "", "time_ms": 1688661348960, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1550}}
+:::MLLOG {"namespace": "", "time_ms": 1688661348960, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6615159511566162, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1550}}
+:::MLLOG {"namespace": "", "time_ms": 1688661348960, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.027644861489534378, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1550}}
+:::MLLOG {"namespace": "", "time_ms": 1688661351470, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1560}}
+:::MLLOG {"namespace": "", "time_ms": 1688661351471, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6506125926971436, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1560}}
+:::MLLOG {"namespace": "", "time_ms": 1688661351471, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02493768185377121, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1560}}
+:::MLLOG {"namespace": "", "time_ms": 1688661353868, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1570}}
+:::MLLOG {"namespace": "", "time_ms": 1688661353868, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6365561485290527, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1570}}
+:::MLLOG {"namespace": "", "time_ms": 1688661353868, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02130993828177452, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1570}}
+:::MLLOG {"namespace": "", "time_ms": 1688661356373, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1580}}
+:::MLLOG {"namespace": "", "time_ms": 1688661356374, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6264638900756836, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1580}}
+:::MLLOG {"namespace": "", "time_ms": 1688661356374, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.022067472338676453, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1580}}
+:::MLLOG {"namespace": "", "time_ms": 1688661358824, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1590}}
+:::MLLOG {"namespace": "", "time_ms": 1688661358824, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6386207938194275, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1590}}
+:::MLLOG {"namespace": "", "time_ms": 1688661358824, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02238466590642929, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1590}}
+:::MLLOG {"namespace": "", "time_ms": 1688661361283, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1600}}
+:::MLLOG {"namespace": "", "time_ms": 1688661361284, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5808347463607788, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1600}}
+:::MLLOG {"namespace": "", "time_ms": 1688661361284, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.023158270865678787, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1600}}
+:::MLLOG {"namespace": "", "time_ms": 1688661363738, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1610}}
+:::MLLOG {"namespace": "", "time_ms": 1688661363738, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6500098705291748, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1610}}
+:::MLLOG {"namespace": "", "time_ms": 1688661363738, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.025441665202379227, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1610}}
+:::MLLOG {"namespace": "", "time_ms": 1688661366213, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1620}}
+:::MLLOG {"namespace": "", "time_ms": 1688661366213, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6612907648086548, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1620}}
+:::MLLOG {"namespace": "", "time_ms": 1688661366213, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.020950742065906525, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1620}}
+:::MLLOG {"namespace": "", "time_ms": 1688661368660, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1630}}
+:::MLLOG {"namespace": "", "time_ms": 1688661368660, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6786822080612183, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1630}}
+:::MLLOG {"namespace": "", "time_ms": 1688661368661, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.025457026436924934, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1630}}
+:::MLLOG {"namespace": "", "time_ms": 1688661371152, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1640}}
+:::MLLOG {"namespace": "", "time_ms": 1688661371152, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6136168837547302, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1640}}
+:::MLLOG {"namespace": "", "time_ms": 1688661371152, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.027088526636362076, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1640}}
+:::MLLOG {"namespace": "", "time_ms": 1688661373529, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1650}}
+:::MLLOG {"namespace": "", "time_ms": 1688661373529, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6796058416366577, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1650}}
+:::MLLOG {"namespace": "", "time_ms": 1688661373529, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.021274451166391373, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1650}}
+:::MLLOG {"namespace": "", "time_ms": 1688661375904, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1660}}
+:::MLLOG {"namespace": "", "time_ms": 1688661375907, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6020630598068237, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1660}}
+:::MLLOG {"namespace": "", "time_ms": 1688661375907, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.026965666562318802, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1660}}
+:::MLLOG {"namespace": "", "time_ms": 1688661378297, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1670}}
+:::MLLOG {"namespace": "", "time_ms": 1688661378298, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6600783467292786, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1670}}
+:::MLLOG {"namespace": "", "time_ms": 1688661378298, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.01779005117714405, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1670}}
+:::MLLOG {"namespace": "", "time_ms": 1688661380639, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1680}}
+:::MLLOG {"namespace": "", "time_ms": 1688661380640, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6462976932525635, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1680}}
+:::MLLOG {"namespace": "", "time_ms": 1688661380640, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.021656787022948265, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1680}}
+:::MLLOG {"namespace": "", "time_ms": 1688661383057, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1690}}
+:::MLLOG {"namespace": "", "time_ms": 1688661383058, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6332013607025146, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1690}}
+:::MLLOG {"namespace": "", "time_ms": 1688661383058, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.0214836522936821, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1690}}
+:::MLLOG {"namespace": "", "time_ms": 1688661385477, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1700}}
+:::MLLOG {"namespace": "", "time_ms": 1688661385478, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.637065052986145, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1700}}
+:::MLLOG {"namespace": "", "time_ms": 1688661385478, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.020548662170767784, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1700}}
+:::MLLOG {"namespace": "", "time_ms": 1688661387953, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1710}}
+:::MLLOG {"namespace": "", "time_ms": 1688661387953, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5838040113449097, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1710}}
+:::MLLOG {"namespace": "", "time_ms": 1688661387953, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.023363305255770683, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1710}}
+:::MLLOG {"namespace": "", "time_ms": 1688661390303, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1720}}
+:::MLLOG {"namespace": "", "time_ms": 1688661390304, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6015757918357849, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1720}}
+:::MLLOG {"namespace": "", "time_ms": 1688661390304, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.029705366119742393, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1720}}
+:::MLLOG {"namespace": "", "time_ms": 1688661392666, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1730}}
+:::MLLOG {"namespace": "", "time_ms": 1688661392667, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6515703797340393, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1730}}
+:::MLLOG {"namespace": "", "time_ms": 1688661392667, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.023394213989377022, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1730}}
+:::MLLOG {"namespace": "", "time_ms": 1688661395046, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1740}}
+:::MLLOG {"namespace": "", "time_ms": 1688661395046, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6097575426101685, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1740}}
+:::MLLOG {"namespace": "", "time_ms": 1688661395046, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.027676988393068314, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1740}}
+:::MLLOG {"namespace": "", "time_ms": 1688661397460, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1750}}
+:::MLLOG {"namespace": "", "time_ms": 1688661397460, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5950211882591248, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1750}}
+:::MLLOG {"namespace": "", "time_ms": 1688661397460, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.028840886428952217, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1750}}
+:::MLLOG {"namespace": "", "time_ms": 1688661399931, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1760}}
+:::MLLOG {"namespace": "", "time_ms": 1688661399931, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.658214807510376, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1760}}
+:::MLLOG {"namespace": "", "time_ms": 1688661399932, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02105853334069252, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1760}}
+:::MLLOG {"namespace": "", "time_ms": 1688661402419, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1770}}
+:::MLLOG {"namespace": "", "time_ms": 1688661402420, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5937200784683228, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1770}}
+:::MLLOG {"namespace": "", "time_ms": 1688661402420, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.030985943973064423, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1770}}
+:::MLLOG {"namespace": "", "time_ms": 1688661404979, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1780}}
+:::MLLOG {"namespace": "", "time_ms": 1688661404979, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.637687623500824, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1780}}
+:::MLLOG {"namespace": "", "time_ms": 1688661404979, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.021859988570213318, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1780}}
+:::MLLOG {"namespace": "", "time_ms": 1688661407434, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1790}}
+:::MLLOG {"namespace": "", "time_ms": 1688661407435, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6065542697906494, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1790}}
+:::MLLOG {"namespace": "", "time_ms": 1688661407435, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.023263460025191307, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1790}}
+:::MLLOG {"namespace": "", "time_ms": 1688661409963, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1800}}
+:::MLLOG {"namespace": "", "time_ms": 1688661409963, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6345962882041931, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1800}}
+:::MLLOG {"namespace": "", "time_ms": 1688661409963, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.024562571197748184, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1800}}
+:::MLLOG {"namespace": "", "time_ms": 1688661412382, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1810}}
+:::MLLOG {"namespace": "", "time_ms": 1688661412383, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6226959228515625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1810}}
+:::MLLOG {"namespace": "", "time_ms": 1688661412383, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.024089965969324112, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1810}}
+:::MLLOG {"namespace": "", "time_ms": 1688661414871, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.000548625, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 1, "step_num": 1820}}
+:::MLLOG {"namespace": "", "time_ms": 1688661414872, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.5920814871788025, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 1, "step_num": 1820}}
+:::MLLOG {"namespace": "", "time_ms": 1688661414872, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.02292817272245884, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 1, "step_num": 1820}}
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 997.0 ON node0419 CANCELLED AT 2023-07-06T12:36:56 ***
+slurmstepd: error: *** JOB 997 ON node0419 CANCELLED AT 2023-07-06T12:36:56 ***
