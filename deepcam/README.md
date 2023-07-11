@@ -1,6 +1,11 @@
 ## DeepCam
 
-Once you have a docker image in the mlperf_hpc container registry, you can pull it onto Palmetto using apptainer.
+Implementation of deepcam from mlperf's HPC benchmarks located at: https://github.com/mlcommons/hpc
+Results of this benchmark are located at: https://mlcommons.org/en/training-hpc-20/
+
+### Downloading the mlperf_deepcam container
+
+There is a public docker image in the mlperf_hpc container registry located at https://git.rcd.clemson.edu/palmetto/mlperf_hpc, you can pull it onto Palmetto using apptainer.
 
 First, login: 
 ```bash
@@ -9,58 +14,20 @@ apptainer remote login -u <user> docker://registry.rcd.clemson.edu
 
 Using the menu on the left in GitLab, navigate to the container registry and copy the desired container URI string. Use this to pull the image to Palmetto. To use the latest container run:
 ```bash
-apptainer pull docker://registry.rcd.clemson.edu/rcd/mlperf_hpc/mlperf_hpc-deepcam:latest
+apptainer pull docker://registry.rcd.clemson.edu/palmetto/mlperf_hpc/mlperf_hpc-deepcam
 ```
 Wait for the container to finish downloading and converting. This will create a .sif file (`mlperf_hpc-deepcam_latest.sif`) in your working directory. 
-
-You can use the `apptainer exec` command to run commands in the container. Be sure to include the `--nv` option when running GPU jobs. 
-
-Also, include `-B /scratch/$USER:/scratch/$USER` to bind your scratch directory to the image file system. (Benchmark dataset is large at ~9.5 TB, so it won't fit in home directory)
-
-For example, to run a bash terminal in the container navigate to the directory containing the .sif file and execute: 
-(The data is also located in /project/rcde/mlperf_data/deepcam, bind that instead if available)
-```bash
-apptainer exec --nv -B /scratch/$USER:/scratch/$USER mlperf_hpc-deepcam_latest.sif bash
-```
-Now exit the container
-```bash
-exit
-```
 
 ## Running the Benchmark
 
 ### Running as batch job
 
-All configurations to run the benchmark are in config/config.sh. Edit that file to tune hyperparameters, control where the output of the benchmark will be, and the name of the current run (important to not overwrite previous runs in the output).
+All configurations to run the benchmark are in config/myenvs. Edit that file to tune hyperparameters, control where the output of the benchmark will be, and the name of the current run.
 
-Once the configurations are set run:
+Then, configure the sbatch script "runDeepCam" to use the resources wanted then run:
 ```bash
-source config/config.sh
+sbatch runDeepCam
 ```
-
-Configure the sbatch script "runDeepCam" to use the resources wanted then run:
-```bash
-sbatch --output=output.txt runDeepCam
-```
-
-### Running in container shell
-
-Once the configurations are set run:
-```bash
-source config/config.sh
-```
-
-Next, navigate to the directory containing the .sif file and execute: 
-(Again, change the binded directory to /project/rcde if available)
-```bash
-apptainer exec --nv -B /scratch/$USER:/scratch/$USER mlperf_hpc-deepcam_latest.sif bash
-```
-
-Lastly, run the following command inside apptainer:
-```bash
-bash mlperf_hpc/deepcam/src/deepCam/run_scripts/run_training.sh
-```
-... wait for benchmark to run
 
 # Copied from original MLPerf repo: (Includes information on getting the data)
 # Deep Learning Climate Segmentation Benchmark
