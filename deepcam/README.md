@@ -14,11 +14,11 @@ apptainer remote login -u <user> docker://registry.rcd.clemson.edu
 
 Using the menu on the left in GitLab, navigate to the container registry and copy the desired container URI string. Use this to pull the image to Palmetto. To use the latest container run:
 ```bash
-apptainer pull docker://registry.rcd.clemson.edu/palmetto/mlperf_hpc/mlperf_hpc-deepcam
+apptainer pull docker://registry.rcd.clemson.edu/palmetto/mlperf_hpc/mlperf_hpc-deepcam:latest
 ```
 Wait for the container to finish downloading and converting. This will create a .sif file (`mlperf_hpc-deepcam_latest.sif`) in your working directory. 
 
-## Running the Benchmark
+## Running the Deepcam Benchmark
 
 ### Running as batch job
 
