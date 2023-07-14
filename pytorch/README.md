@@ -45,12 +45,12 @@ The job executes with the following PBS settings:
 ## Results 
 After running the benchmark, insert results into the table below. Move the corresponding log file into the "saved_logs" folder. 
 
-| Event                     | Date       | Runtime    | Storage | run time (s) | avg. img/s | Test Acc@1 | Log file                  | Config |
-|---------------------------|------------|------------|---------|--------------|------------|------------|---------------------------|--------|
-| July 2023 Pre-maintenance | 2023-07-10 | nvidia_ngc | vast    | 1,123        | 1188.76    | 22.08%     | pytorch_benchmark.o877944 | Phase 29 -- 20cpu, 100gb, 1 gpu |
-| "                         | 2023-07-10 | nvidia_ngc | vast    | 1,114        | 1197.74    | 22.08%     | pytorch_benchmark.o877944 | Phase 28 -- 20cpu, 100gb, 1 gpu |
-| "                         | 2023-07-10 | nvidia_ngc | vast    | 1,262        | 1061.14    | 25.36%     | pytorch_benchmark.o877944 | Phase 27 -- 20cpu, 100gb, 1 gpu |
-| "                         | 2023-07-10 | nvidia_ngc | vast    | 1,241        | 1095.24    | 22.08%     | pytorch_benchmark.o877944 | Phase 27 -- Full Node, 1 gpu |
-| Added vast storage option | 2023-03-02 | nvidia_ngc | vast    | 1,235        | 1175.31    | 22.08%     | pytorch_benchmark.o202908 | Phase 27 -- Full Node, 1 gpu |
-| Initial test              | 2023-02-20 | nvidia_ngc | zfs     | 1,270        | 1058.28    | 25.36%     | pytorch_benchmark.o176760 | Phase 27 -- Full Node, 1 gpu |
-| "                         | "          | conda      | zfs     | 1,349        | 992.47     | 25.54%     | pytorch_benchmark.o176787 | Phase 27 -- Full Node, 1 gpu |
+| Event                     | Date       | Runtime    | Storage | run time (s) | avg. img/s | Test Acc@1 | Config |
+|---------------------------|------------|------------|---------|--------------|------------|------------|--------|
+| July 2023 Pre-maintenance | 2023-07-10 | nvidia_ngc | vast    | 1,123        | 1188.76    | 22.08%     | Phase 29 -- 20cpu, 100gb, 1 gpu |
+| "                         | 2023-07-10 | nvidia_ngc | vast    | 1,114        | 1197.74    | 22.08%     | Phase 28 -- 20cpu, 100gb, 1 gpu |
+| "                         | 2023-07-10 | nvidia_ngc | vast    | 1,262        | 1061.14    | 25.36%     | Phase 27 -- 20cpu, 100gb, 1 gpu |
+| "                         | 2023-07-10 | nvidia_ngc | vast    | 1,241        | 1095.24    | 22.08%     | Phase 27 -- Full Node, 1 gpu |
+| Added vast storage option | 2023-03-02 | nvidia_ngc | vast    | 1,235        | 1175.31    | 22.08%     | Phase 27 -- Full Node, 1 gpu |
+| Initial test              | 2023-02-20 | nvidia_ngc | zfs     | 1,270        | 1058.28    | 25.36%     | Phase 27 -- Full Node, 1 gpu |
+| "                         | "          | conda      | zfs     | 1,349        | 992.47     | 25.54%     | Phase 27 -- Full Node, 1 gpu |
