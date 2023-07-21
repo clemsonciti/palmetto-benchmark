@@ -1,3 +1,36 @@
+## MLPerf DeepCam Optimized Implementation for Palmetto
+
+This implementation of the deepcam benchmark is optimized. It currently takes about 1.5 hours to run with 36 A100 GPUs.
+
+Once you have a docker image in the mlperf_hpc container registry, you can pull it onto Palmetto using apptainer.
+
+First, login: 
+```bash
+apptainer remote login -u <user> docker://registry.rcd.clemson.edu
+```
+
+Using the menu on the left in GitLab, navigate to the container registry and copy the desired container URI string. Use the following command to pull the image to Palmetto. To use the latest container run:
+```bash
+apptainer pull docker://registry.rcd.clemson.edu/palmetto/mlperf_hpc/mlperf_hpc-deepcam
+```
+Wait for the container to finish downloading and converting. This will create a .sif file (`mlperf_hpc-deepcam_latest.sif`) in your working directory. 
+
+## Running the Benchmark
+
+Edit the run.slurm folder to change the resources used in the benchmark.
+
+All hyperparameter configurations to run the benchmark are in the configs folder. Edit that file to tune hyperparameters. If you create a new file you will need to edit the files run.slurm and run_and_time_multi.sh so that they export the correct config file. That command is near the top in those files.
+
+If using Palmetto, this implementation assumes you have access to the /project/rcde/mlperf_data directory. If you do not have access you will need to edit the run.slurm file so that it points to a different location that holds the deepcam data.
+
+Once the configurations are set run:
+
+Configure the sbatch script "run.slurm" to use the resources wanted then run:
+```bash
+sbatch --output=output.txt run.slurm
+```
+
+# Copied from DELL's implementation of deepcam in the MLPerf repo: (Includes information on getting the data)
 # Deep Learning Climate Segmentation Benchmark
 
 PyTorch implementation for the climate segmentation benchmark, based on the
