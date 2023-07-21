@@ -1,0 +1,1012 @@
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /etc/localtime required more than 50 (94) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (470) bind mounts
+:::MLLOG {"namespace": "", "time_ms": 1689947196669, "event_type": "POINT_IN_TIME", "key": "submission_benchmark", "value": "deepcam", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/mlperf_log_utils.py", "lineno": 55}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196817, "event_type": "POINT_IN_TIME", "key": "submission_org", "value": "Umbrella Corp.", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/mlperf_log_utils.py", "lineno": 58}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196817, "event_type": "POINT_IN_TIME", "key": "submission_division", "value": "closed", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/mlperf_log_utils.py", "lineno": 61}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196817, "event_type": "POINT_IN_TIME", "key": "submission_status", "value": "onprem", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/mlperf_log_utils.py", "lineno": 64}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196817, "event_type": "POINT_IN_TIME", "key": "submission_platform", "value": "36xSUBMISSION_PLATFORM_PLACEHOLDER", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/mlperf_log_utils.py", "lineno": 67}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196817, "event_type": "INTERVAL_START", "key": "init_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 67}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196817, "event_type": "POINT_IN_TIME", "key": "cache_clear", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 68}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196817, "event_type": "POINT_IN_TIME", "key": "seed", "value": 1689947189, "metadata": {"file": "./src/deepCam/train.py", "lineno": 72}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196821, "event_type": "POINT_IN_TIME", "key": "number_of_ranks", "value": 36, "metadata": {"file": "./src/deepCam/train.py", "lineno": 93}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196821, "event_type": "POINT_IN_TIME", "key": "number_of_nodes", "value": 18, "metadata": {"file": "./src/deepCam/train.py", "lineno": 94}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196821, "event_type": "POINT_IN_TIME", "key": "accelerators_per_node", "value": 2, "metadata": {"file": "./src/deepCam/train.py", "lineno": 95}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196821, "event_type": "POINT_IN_TIME", "key": "global_batch_size", "value": 288, "metadata": {"file": "./src/deepCam/train.py", "lineno": 98}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196821, "event_type": "POINT_IN_TIME", "key": "batchnorm_group_size", "value": 1, "metadata": {"file": "./src/deepCam/train.py", "lineno": 99}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196821, "event_type": "POINT_IN_TIME", "key": "gradient_accumulation_frequency", "value": 1, "metadata": {"file": "./src/deepCam/train.py", "lineno": 100}}
+:::MLLOG {"namespace": "", "time_ms": 1689947196822, "event_type": "POINT_IN_TIME", "key": "checkpoint", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 101}}
+Constructing DeepLabv3+ model...
+Number of output channels: 3
+Output stride: 16
+Number of Input Channels: 16
+:::MLLOG {"namespace": "", "time_ms": 1689947197568, "event_type": "POINT_IN_TIME", "key": "opt_name", "value": "LAMB", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 134}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197569, "event_type": "POINT_IN_TIME", "key": "opt_lr", "value": 0.0025, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197569, "event_type": "POINT_IN_TIME", "key": "opt_bias_correction", "value": true, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197569, "event_type": "POINT_IN_TIME", "key": "opt_betas", "value": [0.9, 0.999], "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197569, "event_type": "POINT_IN_TIME", "key": "opt_eps", "value": 1e-06, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197569, "event_type": "POINT_IN_TIME", "key": "opt_weight_decay", "value": 0.01, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197569, "event_type": "POINT_IN_TIME", "key": "opt_grad_averaging", "value": true, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197569, "event_type": "POINT_IN_TIME", "key": "opt_max_grad_norm", "value": 1.0, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 137}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197570, "event_type": "POINT_IN_TIME", "key": "scheduler_type", "value": "multistep", "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 97}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197570, "event_type": "POINT_IN_TIME", "key": "scheduler_milestones", "value": [], "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 97}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197570, "event_type": "POINT_IN_TIME", "key": "scheduler_decay_rate", "value": 0.2, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 97}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197570, "event_type": "POINT_IN_TIME", "key": "scheduler_lr_warmup_steps", "value": 100, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 97}}
+:::MLLOG {"namespace": "", "time_ms": 1689947197570, "event_type": "POINT_IN_TIME", "key": "scheduler_lr_warmup_factor", "value": 1.0, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/utils/optimizer_helpers.py", "lineno": 97}}
+DeepLabv3_plus(
+  (xception_features): Xception(
+    (relu): ReLU(inplace=True)
+    (conv1): Conv2d(16, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+    (bn1): GBN(
+      (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+    (bn2): GBN(
+      (bn): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (block1): Block(
+      (skip): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+      (skipbn): GBN(
+        (bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=64, bias=False)
+          (pointwise): Conv2d(64, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=128, bias=False)
+          (pointwise): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): SeparableConv2d_same(
+          (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=128, bias=False)
+          (pointwise): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+      )
+    )
+    (block2): Block(
+      (skip): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+      (skipbn): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=128, bias=False)
+          (pointwise): Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=256, bias=False)
+          (pointwise): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): SeparableConv2d_same(
+          (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=256, bias=False)
+          (pointwise): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+      )
+    )
+    (block3): Block(
+      (skip): Conv2d(256, 728, kernel_size=(1, 1), stride=(2, 2), bias=False)
+      (skipbn): GBN(
+        (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=256, bias=False)
+          (pointwise): Conv2d(256, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+      )
+    )
+    (block4): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block5): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block6): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block7): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block8): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block9): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block10): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block11): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block12): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block13): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block14): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block15): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block16): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block17): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block18): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block19): Block(
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): ReLU(inplace=True)
+        (6): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (7): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+    )
+    (block20): Block(
+      (skip): Conv2d(728, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (skipbn): GBN(
+        (bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU(inplace=True)
+      (rep): Sequential(
+        (0): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 728, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (1): GBN(
+          (bn): BatchNorm2d(728, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (2): ReLU(inplace=True)
+        (3): SeparableConv2d_same(
+          (conv1): Conv2d(728, 728, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=728, bias=False)
+          (pointwise): Conv2d(728, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+        (4): GBN(
+          (bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+        (5): SeparableConv2d_same(
+          (conv1): Conv2d(1024, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=1024, bias=False)
+          (pointwise): Conv2d(1024, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        )
+      )
+    )
+    (conv3): SeparableConv2d_same(
+      (conv1): Conv2d(1024, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2), groups=1024, bias=False)
+      (pointwise): Conv2d(1024, 1536, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    )
+    (bn3): GBN(
+      (bn): BatchNorm2d(1536, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (conv4): SeparableConv2d_same(
+      (conv1): Conv2d(1536, 1536, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2), groups=1536, bias=False)
+      (pointwise): Conv2d(1536, 1536, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    )
+    (bn4): GBN(
+      (bn): BatchNorm2d(1536, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (conv5): SeparableConv2d_same(
+      (conv1): Conv2d(1536, 1536, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2), groups=1536, bias=False)
+      (pointwise): Conv2d(1536, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    )
+    (bn5): GBN(
+      (bn): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (bottleneck): Bottleneck(
+    (aspp1): ASPP_module(
+      (atrous_convolution): Conv2d(2048, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU()
+    )
+    (aspp2): ASPP_module(
+      (atrous_convolution): Conv2d(2048, 256, kernel_size=(3, 3), stride=(1, 1), padding=(6, 6), dilation=(6, 6), bias=False)
+      (bn): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU()
+    )
+    (aspp3): ASPP_module(
+      (atrous_convolution): Conv2d(2048, 256, kernel_size=(3, 3), stride=(1, 1), padding=(12, 12), dilation=(12, 12), bias=False)
+      (bn): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU()
+    )
+    (aspp4): ASPP_module(
+      (atrous_convolution): Conv2d(2048, 256, kernel_size=(3, 3), stride=(1, 1), padding=(18, 18), dilation=(18, 18), bias=False)
+      (bn): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (relu): ReLU()
+    )
+    (global_avg_pool): GlobalAveragePool(
+      (global_average_pool): Sequential(
+        (0): AdaptiveAvgPool2d(output_size=(1, 1))
+        (1): Conv2d(2048, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (2): TrainableAffine()
+        (3): ReLU()
+      )
+    )
+    (conv): Conv2d(1280, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (bn): GBN(
+      (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (relu): ReLU()
+  )
+  (conv2): Conv2d(128, 48, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bn2): GBN(
+    (bn): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (relu): ReLU()
+  (upsample): DeconvUpsampler(
+    (deconv1): Sequential(
+      (0): ConvTranspose2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1), bias=False)
+      (1): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): ReLU()
+      (3): ConvTranspose2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1), bias=False)
+      (4): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (5): ReLU()
+    )
+    (conv1): Sequential(
+      (0): Conv2d(304, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): ReLU()
+      (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (4): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (5): ReLU()
+      (6): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1))
+    )
+    (deconv2): Sequential(
+      (0): ConvTranspose2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1), bias=False)
+      (1): GBN(
+        (bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): ReLU()
+    )
+    (last_deconv): Sequential(
+      (0): ConvTranspose2d(256, 3, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1), bias=False)
+    )
+  )
+)
+Total number of elements: 56454720
+Initialized dataset with  121266  samples.
+Initialized dataset with  15158  samples.
+:::MLLOG {"namespace": "", "time_ms": 1689947203063, "event_type": "POINT_IN_TIME", "key": "train_samples", "value": 121266, "metadata": {"file": "./src/deepCam/train.py", "lineno": 185}}
+:::MLLOG {"namespace": "", "time_ms": 1689947203073, "event_type": "POINT_IN_TIME", "key": "eval_samples", "value": 15158, "metadata": {"file": "./src/deepCam/train.py", "lineno": 187}}
+:::MLLOG {"namespace": "", "time_ms": 1689947203238, "event_type": "INTERVAL_END", "key": "init_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 197}}
+:::MLLOG {"namespace": "", "time_ms": 1689947203239, "event_type": "INTERVAL_START", "key": "run_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 198}}
+:::MLLOG {"namespace": "", "time_ms": 1689947203239, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 1, "step_num": 0}}
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+Initialized dataset with  121266  samples.
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+:::MLLOG {"namespace": "", "time_ms": 1689947975764, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 114, "epoch_num": 1, "step_num": 421}}
+:::MLLOG {"namespace": "", "time_ms": 1689947975793, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6519448492262099, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 115, "epoch_num": 1, "step_num": 421}}
+:::MLLOG {"namespace": "", "time_ms": 1689947975793, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.01855380998717414, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 116, "epoch_num": 1, "step_num": 421}}
+:::MLLOG {"namespace": "", "time_ms": 1689947975798, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 38, "epoch_num": 1}}
+/opt/conda/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py:9: UserWarning: is_namedtuple is deprecated, please use the python checks instead
+  warnings.warn("is_namedtuple is deprecated, please use the python checks instead")
+:::MLLOG {"namespace": "", "time_ms": 1689948075703, "event_type": "POINT_IN_TIME", "key": "eval_accuracy", "value": 0.6210307418112548, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 86, "epoch_num": 1, "step_num": 421}}
+:::MLLOG {"namespace": "", "time_ms": 1689948075707, "event_type": "POINT_IN_TIME", "key": "eval_loss", "value": 0.02609742966533761, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 87, "epoch_num": 1, "step_num": 421}}
+:::MLLOG {"namespace": "", "time_ms": 1689948075708, "event_type": "INTERVAL_END", "key": "eval_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 97, "epoch_num": 1}}
+:::MLLOG {"namespace": "", "time_ms": 1689948075710, "event_type": "INTERVAL_END", "key": "epoch_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 226, "epoch_num": 1, "step_num": 421}}
+:::MLLOG {"namespace": "", "time_ms": 1689948075710, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 2, "step_num": 421}}
+:::MLLOG {"namespace": "", "time_ms": 1689948843643, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 114, "epoch_num": 2, "step_num": 842}}
+:::MLLOG {"namespace": "", "time_ms": 1689948843691, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6801777415805392, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 115, "epoch_num": 2, "step_num": 842}}
+:::MLLOG {"namespace": "", "time_ms": 1689948843691, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.01821510328186883, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 116, "epoch_num": 2, "step_num": 842}}
+:::MLLOG {"namespace": "", "time_ms": 1689948843692, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 38, "epoch_num": 2}}
+:::MLLOG {"namespace": "", "time_ms": 1689948937373, "event_type": "POINT_IN_TIME", "key": "eval_accuracy", "value": 0.6714357465942077, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 86, "epoch_num": 2, "step_num": 842}}
+:::MLLOG {"namespace": "", "time_ms": 1689948937376, "event_type": "POINT_IN_TIME", "key": "eval_loss", "value": 0.018259028580591724, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 87, "epoch_num": 2, "step_num": 842}}
+:::MLLOG {"namespace": "", "time_ms": 1689948937378, "event_type": "INTERVAL_END", "key": "eval_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 97, "epoch_num": 2}}
+:::MLLOG {"namespace": "", "time_ms": 1689948937378, "event_type": "INTERVAL_END", "key": "epoch_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 226, "epoch_num": 2, "step_num": 842}}
+:::MLLOG {"namespace": "", "time_ms": 1689948937379, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 3, "step_num": 842}}
+:::MLLOG {"namespace": "", "time_ms": 1689949221955, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 3, "step_num": 1000}}
+:::MLLOG {"namespace": "", "time_ms": 1689949221958, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.6883166631062826, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 3, "step_num": 1000}}
+:::MLLOG {"namespace": "", "time_ms": 1689949221958, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.016223241885503132, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 3, "step_num": 1000}}
+:::MLLOG {"namespace": "", "time_ms": 1689949690874, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 114, "epoch_num": 3, "step_num": 1263}}
+:::MLLOG {"namespace": "", "time_ms": 1689949690916, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.7308275964525011, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 115, "epoch_num": 3, "step_num": 1263}}
+:::MLLOG {"namespace": "", "time_ms": 1689949690916, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.01254847894112269, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 116, "epoch_num": 3, "step_num": 1263}}
+:::MLLOG {"namespace": "", "time_ms": 1689949690917, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 38, "epoch_num": 3}}
+:::MLLOG {"namespace": "", "time_ms": 1689949784698, "event_type": "POINT_IN_TIME", "key": "eval_accuracy", "value": 0.7123267725788363, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 86, "epoch_num": 3, "step_num": 1263}}
+:::MLLOG {"namespace": "", "time_ms": 1689949784701, "event_type": "POINT_IN_TIME", "key": "eval_loss", "value": 0.014260733594742154, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 87, "epoch_num": 3, "step_num": 1263}}
+:::MLLOG {"namespace": "", "time_ms": 1689949784703, "event_type": "INTERVAL_END", "key": "eval_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 97, "epoch_num": 3}}
+:::MLLOG {"namespace": "", "time_ms": 1689949784703, "event_type": "INTERVAL_END", "key": "epoch_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 226, "epoch_num": 3, "step_num": 1263}}
+:::MLLOG {"namespace": "", "time_ms": 1689949784704, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 4, "step_num": 1263}}
+:::MLLOG {"namespace": "", "time_ms": 1689950549677, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 114, "epoch_num": 4, "step_num": 1684}}
+:::MLLOG {"namespace": "", "time_ms": 1689950549702, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.7529526286655002, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 115, "epoch_num": 4, "step_num": 1684}}
+:::MLLOG {"namespace": "", "time_ms": 1689950549702, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.010988178352514902, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 116, "epoch_num": 4, "step_num": 1684}}
+:::MLLOG {"namespace": "", "time_ms": 1689950549702, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 38, "epoch_num": 4}}
+:::MLLOG {"namespace": "", "time_ms": 1689950645189, "event_type": "POINT_IN_TIME", "key": "eval_accuracy", "value": 0.7280569795033975, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 86, "epoch_num": 4, "step_num": 1684}}
+:::MLLOG {"namespace": "", "time_ms": 1689950645192, "event_type": "POINT_IN_TIME", "key": "eval_loss", "value": 0.015819359807166596, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 87, "epoch_num": 4, "step_num": 1684}}
+:::MLLOG {"namespace": "", "time_ms": 1689950645193, "event_type": "INTERVAL_END", "key": "eval_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 97, "epoch_num": 4}}
+:::MLLOG {"namespace": "", "time_ms": 1689950645194, "event_type": "INTERVAL_END", "key": "epoch_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 226, "epoch_num": 4, "step_num": 1684}}
+:::MLLOG {"namespace": "", "time_ms": 1689950645194, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 5, "step_num": 1684}}
+:::MLLOG {"namespace": "", "time_ms": 1689951231738, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 5, "step_num": 2000}}
+:::MLLOG {"namespace": "", "time_ms": 1689951231742, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.7755880355834961, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 5, "step_num": 2000}}
+:::MLLOG {"namespace": "", "time_ms": 1689951231742, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.01064722736676534, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 5, "step_num": 2000}}
+:::MLLOG {"namespace": "", "time_ms": 1689951425847, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 114, "epoch_num": 5, "step_num": 2105}}
+:::MLLOG {"namespace": "", "time_ms": 1689951425909, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.7750810517205132, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 115, "epoch_num": 5, "step_num": 2105}}
+:::MLLOG {"namespace": "", "time_ms": 1689951425909, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.010712865326139662, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 116, "epoch_num": 5, "step_num": 2105}}
+:::MLLOG {"namespace": "", "time_ms": 1689951425910, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 38, "epoch_num": 5}}
+:::MLLOG {"namespace": "", "time_ms": 1689951521747, "event_type": "POINT_IN_TIME", "key": "eval_accuracy", "value": 0.7453495060364164, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 86, "epoch_num": 5, "step_num": 2105}}
+:::MLLOG {"namespace": "", "time_ms": 1689951521752, "event_type": "POINT_IN_TIME", "key": "eval_loss", "value": 0.015334108571355679, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 87, "epoch_num": 5, "step_num": 2105}}
+:::MLLOG {"namespace": "", "time_ms": 1689951521753, "event_type": "INTERVAL_END", "key": "eval_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 97, "epoch_num": 5}}
+:::MLLOG {"namespace": "", "time_ms": 1689951521754, "event_type": "INTERVAL_END", "key": "epoch_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 226, "epoch_num": 5, "step_num": 2105}}
+:::MLLOG {"namespace": "", "time_ms": 1689951521754, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 6, "step_num": 2105}}
+:::MLLOG {"namespace": "", "time_ms": 1689952306008, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 114, "epoch_num": 6, "step_num": 2526}}
+:::MLLOG {"namespace": "", "time_ms": 1689952306073, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.7773843871222602, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 115, "epoch_num": 6, "step_num": 2526}}
+:::MLLOG {"namespace": "", "time_ms": 1689952306073, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.011268834273020426, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 116, "epoch_num": 6, "step_num": 2526}}
+:::MLLOG {"namespace": "", "time_ms": 1689952306074, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 38, "epoch_num": 6}}
+:::MLLOG {"namespace": "", "time_ms": 1689952402145, "event_type": "POINT_IN_TIME", "key": "eval_accuracy", "value": 0.7633708144008114, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 86, "epoch_num": 6, "step_num": 2526}}
+:::MLLOG {"namespace": "", "time_ms": 1689952402150, "event_type": "POINT_IN_TIME", "key": "eval_loss", "value": 0.012505021569030174, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 87, "epoch_num": 6, "step_num": 2526}}
+:::MLLOG {"namespace": "", "time_ms": 1689952402151, "event_type": "INTERVAL_END", "key": "eval_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 97, "epoch_num": 6}}
+:::MLLOG {"namespace": "", "time_ms": 1689952402152, "event_type": "INTERVAL_END", "key": "epoch_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 226, "epoch_num": 6, "step_num": 2526}}
+:::MLLOG {"namespace": "", "time_ms": 1689952402152, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 7, "step_num": 2526}}
+:::MLLOG {"namespace": "", "time_ms": 1689953171889, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 114, "epoch_num": 7, "step_num": 2947}}
+:::MLLOG {"namespace": "", "time_ms": 1689953171952, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.7983086903889974, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 115, "epoch_num": 7, "step_num": 2947}}
+:::MLLOG {"namespace": "", "time_ms": 1689953171952, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.0085832170314259, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 116, "epoch_num": 7, "step_num": 2947}}
+:::MLLOG {"namespace": "", "time_ms": 1689953171952, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 38, "epoch_num": 7}}
+:::MLLOG {"namespace": "", "time_ms": 1689953268421, "event_type": "POINT_IN_TIME", "key": "eval_accuracy", "value": 0.7363458420264877, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 86, "epoch_num": 7, "step_num": 2947}}
+:::MLLOG {"namespace": "", "time_ms": 1689953268425, "event_type": "POINT_IN_TIME", "key": "eval_loss", "value": 0.02135697145986752, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 87, "epoch_num": 7, "step_num": 2947}}
+:::MLLOG {"namespace": "", "time_ms": 1689953268427, "event_type": "INTERVAL_END", "key": "eval_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 97, "epoch_num": 7}}
+:::MLLOG {"namespace": "", "time_ms": 1689953268428, "event_type": "INTERVAL_END", "key": "epoch_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 226, "epoch_num": 7, "step_num": 2947}}
+:::MLLOG {"namespace": "", "time_ms": 1689953268428, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 8, "step_num": 2947}}
+:::MLLOG {"namespace": "", "time_ms": 1689953367609, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 8, "step_num": 3000}}
+:::MLLOG {"namespace": "", "time_ms": 1689953367612, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.8148773511250814, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 8, "step_num": 3000}}
+:::MLLOG {"namespace": "", "time_ms": 1689953367612, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.006908005310429467, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 8, "step_num": 3000}}
+:::MLLOG {"namespace": "", "time_ms": 1689954055766, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 114, "epoch_num": 8, "step_num": 3368}}
+:::MLLOG {"namespace": "", "time_ms": 1689954055817, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.8110802968343099, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 115, "epoch_num": 8, "step_num": 3368}}
+:::MLLOG {"namespace": "", "time_ms": 1689954055817, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.008459260066350302, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 116, "epoch_num": 8, "step_num": 3368}}
+:::MLLOG {"namespace": "", "time_ms": 1689954055817, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 38, "epoch_num": 8}}
+:::MLLOG {"namespace": "", "time_ms": 1689954153351, "event_type": "POINT_IN_TIME", "key": "eval_accuracy", "value": 0.7778061966041034, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 86, "epoch_num": 8, "step_num": 3368}}
+:::MLLOG {"namespace": "", "time_ms": 1689954153354, "event_type": "POINT_IN_TIME", "key": "eval_loss", "value": 0.01094133795086289, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 87, "epoch_num": 8, "step_num": 3368}}
+:::MLLOG {"namespace": "", "time_ms": 1689954153355, "event_type": "INTERVAL_END", "key": "eval_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 97, "epoch_num": 8}}
+:::MLLOG {"namespace": "", "time_ms": 1689954153355, "event_type": "INTERVAL_END", "key": "epoch_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 226, "epoch_num": 8, "step_num": 3368}}
+:::MLLOG {"namespace": "", "time_ms": 1689954153356, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 9, "step_num": 3368}}
+:::MLLOG {"namespace": "", "time_ms": 1689954931331, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 114, "epoch_num": 9, "step_num": 3789}}
+:::MLLOG {"namespace": "", "time_ms": 1689954931368, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.8256721496582031, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 115, "epoch_num": 9, "step_num": 3789}}
+:::MLLOG {"namespace": "", "time_ms": 1689954931368, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.00789759142531289, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 116, "epoch_num": 9, "step_num": 3789}}
+:::MLLOG {"namespace": "", "time_ms": 1689954931368, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 38, "epoch_num": 9}}
+:::MLLOG {"namespace": "", "time_ms": 1689955027005, "event_type": "POINT_IN_TIME", "key": "eval_accuracy", "value": 0.8091132776421691, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 86, "epoch_num": 9, "step_num": 3789}}
+:::MLLOG {"namespace": "", "time_ms": 1689955027008, "event_type": "POINT_IN_TIME", "key": "eval_loss", "value": 0.010217282337632149, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 87, "epoch_num": 9, "step_num": 3789}}
+:::MLLOG {"namespace": "", "time_ms": 1689955027010, "event_type": "INTERVAL_END", "key": "eval_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 97, "epoch_num": 9}}
+:::MLLOG {"namespace": "", "time_ms": 1689955027010, "event_type": "INTERVAL_END", "key": "epoch_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 226, "epoch_num": 9, "step_num": 3789}}
+:::MLLOG {"namespace": "", "time_ms": 1689955027011, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 10, "step_num": 3789}}
+:::MLLOG {"namespace": "", "time_ms": 1689955409674, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 94, "epoch_num": 10, "step_num": 4000}}
+:::MLLOG {"namespace": "", "time_ms": 1689955409678, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.829570452372233, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 95, "epoch_num": 10, "step_num": 4000}}
+:::MLLOG {"namespace": "", "time_ms": 1689955409678, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.007901942564381493, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 96, "epoch_num": 10, "step_num": 4000}}
+:::MLLOG {"namespace": "", "time_ms": 1689955787071, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 114, "epoch_num": 10, "step_num": 4210}}
+:::MLLOG {"namespace": "", "time_ms": 1689955787108, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.8336923387315538, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 115, "epoch_num": 10, "step_num": 4210}}
+:::MLLOG {"namespace": "", "time_ms": 1689955787109, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.007301256060600281, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 116, "epoch_num": 10, "step_num": 4210}}
+:::MLLOG {"namespace": "", "time_ms": 1689955787109, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 38, "epoch_num": 10}}
+:::MLLOG {"namespace": "", "time_ms": 1689955881110, "event_type": "POINT_IN_TIME", "key": "eval_accuracy", "value": 0.7993957141031138, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 86, "epoch_num": 10, "step_num": 4210}}
+:::MLLOG {"namespace": "", "time_ms": 1689955881113, "event_type": "POINT_IN_TIME", "key": "eval_loss", "value": 0.011545003349162261, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 87, "epoch_num": 10, "step_num": 4210}}
+:::MLLOG {"namespace": "", "time_ms": 1689955881114, "event_type": "INTERVAL_END", "key": "eval_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 97, "epoch_num": 10}}
+:::MLLOG {"namespace": "", "time_ms": 1689955881115, "event_type": "INTERVAL_END", "key": "epoch_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 226, "epoch_num": 10, "step_num": 4210}}
+:::MLLOG {"namespace": "", "time_ms": 1689955881115, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 11, "step_num": 4210}}
+:::MLLOG {"namespace": "", "time_ms": 1689956634514, "event_type": "POINT_IN_TIME", "key": "learning_rate", "value": 0.002475, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 114, "epoch_num": 11, "step_num": 4631}}
+:::MLLOG {"namespace": "", "time_ms": 1689956634558, "event_type": "POINT_IN_TIME", "key": "train_accuracy", "value": 0.8203721046447754, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 115, "epoch_num": 11, "step_num": 4631}}
+:::MLLOG {"namespace": "", "time_ms": 1689956634558, "event_type": "POINT_IN_TIME", "key": "train_loss", "value": 0.006906773067182965, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/trainer.py", "lineno": 116, "epoch_num": 11, "step_num": 4631}}
+:::MLLOG {"namespace": "", "time_ms": 1689956634559, "event_type": "INTERVAL_START", "key": "eval_start", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 38, "epoch_num": 11}}
+:::MLLOG {"namespace": "", "time_ms": 1689956728124, "event_type": "POINT_IN_TIME", "key": "eval_accuracy", "value": 0.807687411350442, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 86, "epoch_num": 11, "step_num": 4631}}
+:::MLLOG {"namespace": "", "time_ms": 1689956728127, "event_type": "POINT_IN_TIME", "key": "eval_loss", "value": 0.01050201810622124, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 87, "epoch_num": 11, "step_num": 4631}}
+:::MLLOG {"namespace": "", "time_ms": 1689956728129, "event_type": "INTERVAL_END", "key": "eval_stop", "value": null, "metadata": {"file": "/project/rcde/nnisbet/mlperf_hpc/deepcam/deepcam_reference/src/deepCam/driver/validation.py", "lineno": 97, "epoch_num": 11}}
+:::MLLOG {"namespace": "", "time_ms": 1689956728130, "event_type": "INTERVAL_END", "key": "epoch_stop", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 226, "epoch_num": 11, "step_num": 4631}}
+:::MLLOG {"namespace": "", "time_ms": 1689956728130, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "./src/deepCam/train.py", "lineno": 204, "epoch_num": 12, "step_num": 4631}}
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 261 ON node0403 CANCELLED AT 2023-07-21T12:35:33 ***
+slurmstepd: error: *** STEP 261.0 ON node0403 CANCELLED AT 2023-07-21T12:35:33 ***

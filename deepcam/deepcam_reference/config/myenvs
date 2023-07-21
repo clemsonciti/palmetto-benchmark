@@ -1,0 +1,29 @@
+DATA_DIR="/project/rcde/mlperf_data/deepcam/All-Hist"
+OUTPUT_DIR="/project/rcde/nnisbet/output"
+RUN_TAG="mlperf_hpc:deepcam_run0"
+LOCAL_BATCH_SIZE=8
+# Hyperparameters
+START_LR=0.0025
+OPTIMIZER="LAMB"
+LR_SCHEDULE_TYPE="multistep"
+#export LR_MILESTONES="1100 4096"
+#export LR_MILESTONES="4096 8192"
+LR_MILESTONES="4096:8192"
+LR_DECAY_RATE="0.2"
+LR_WARMUP_STEPS=100
+LR_WARMUP_FACTOR=1.
+WEIGHT_DECAY=0.01
+BATCHNORM_GROUP_SIZE=1
+
+# data parameters
+SHUFFLE_MODE="global"
+DATA_FORMAT="dali-es"
+PRECISION_MODE="amp"
+LOCAL_VALIDATION_BATCH_SIZE=8
+MAX_THREADS=8
+
+# auxiliary parameters
+LOGGING_FREQUENCY=1000
+
+# misc args
+ADDITIONAL_ARGS="--enable_jit --disable_comm_overlap --enable_graph"
