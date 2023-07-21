@@ -6,7 +6,7 @@ Once you have a docker image in the mlperf_hpc container registry, you can pull 
 
 First, login: 
 ```bash
-apptainer remote login -u <user> docker://registry.rcd.clemson.edu/palmetto/mlperf_hpc/mlperf_hpc-deepcam
+apptainer remote login -u <user> docker://registry.rcd.clemson.edu
 ```
 
 Using the menu on the left in GitLab, navigate to the container registry and copy the desired container URI string. Use this to pull the image to Palmetto. To use the latest container run:
